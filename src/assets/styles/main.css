@@ -126,4 +126,8 @@
   .text-underline {
     @apply relative before:absolute before:-z-10 before:w-full before:h-1/3 before:left-0 before:top-2/3 before:bg-slate-300;
   }
+
+  .heading {
+    @apply font-heading font-bold;
+  }
 }
