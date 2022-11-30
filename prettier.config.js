@@ -4,5 +4,5 @@ module.exports = {
   semi: true,
   singleQuote: true,
   plugins: [require('prettier-plugin-tailwindcss')],
-  tailwindConfig: './styles/tailwind.config.js',
+  tailwindConfig: './tailwind.config.js',
 };
