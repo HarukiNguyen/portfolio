@@ -2,7 +2,7 @@ import Header from "./layouts/Header";
 
 function App() {
   return (
-    <div className="container">
+    <div className="container font-heading">
       <Header />
     </div>
   );
