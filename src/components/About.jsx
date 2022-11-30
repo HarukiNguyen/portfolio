@@ -17,7 +17,7 @@ function About() {
 
   return (
     <section className="pb-11">
-      <h1 className="pb-11 font-heading font-bold leading-tight text-4xl">
+      <h1 className="pb-11 heading leading-tight text-4xl">
         Hi, I'm Haruki Nguyen, I am a{" "}
         <span className="inline-block capitalize text-underline">
           web developer
