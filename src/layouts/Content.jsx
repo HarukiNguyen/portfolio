@@ -1,6 +1,10 @@
+import About from "../components/About"
+
 function Content() {
   return (
-    <div>Content</div>
+    <main className="py-11">
+      <About /> 
+    </main>
   )
 }
 
