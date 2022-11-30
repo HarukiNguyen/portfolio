@@ -1,5 +1,11 @@
+import Header from "./layouts/Header";
+
 function App() {
-  return <h3>Have a nice day!</h3>;
+  return (
+    <div className="container">
+      <Header />
+    </div>
+  );
 }
 
 export default App;
