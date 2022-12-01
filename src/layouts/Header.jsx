@@ -1,5 +1,5 @@
-import logo from "../assets/images/logo.svg";
 import SocialMedias from "../components/SocialMedias";
+import Logo from "../components/Logo";
 
 const navs = ["about", "projects", "contact"];
 
@@ -23,15 +23,7 @@ function Header() {
   return (
     <header className="pt-3">
       <div className="flex justify-between">
-        <div className="flex items-center">
-          <a
-            href="/"
-            alt="logo"
-            className="px-2 py-1 rounded focus:bg-slate-100 focus:outline-none cursor-pointer"
-          >
-            <img src={logo} alt="logo" />
-          </a>
-        </div>
+        <Logo />
         <SocialMedias />
       </div>
       <ul className="inline-block pt-7">{navItems}</ul>
