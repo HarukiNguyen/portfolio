@@ -1,11 +1,11 @@
 import About from "../components/About";
-import Skills from "../components/Skills";
+import Knowledge from "../components/Knowledge";
 
 function Content() {
   return (
     <main className="py-11">
       <About />
-      <Skills />
+      <Knowledge />
     </main>
   );
 }

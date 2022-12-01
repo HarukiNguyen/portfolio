@@ -1,7 +1,7 @@
 import React from "react";
-import skillsIcon from "../assets/icons/skills.png";
+import bookIcon from "../assets/icons/book.png";
 
-const skills = [
+const knowledgeData = [
   "HTML & CSS",
   "Javascript",
   "TailwindCSS",
@@ -9,8 +9,8 @@ const skills = [
   "Git & GitHub",
 ];
 
-function Skills() {
-  const skillItems = skills.map((skill) => (
+function Knowledge() {
+  const knowledgeItems = knowledgeData.map((skill) => (
     <li key={skill} className="w-2/4 pb-6 pl-7">
       <div className="">
         <span className="relative before:absolute before:w-[6px] before:h-[6px] before:rounded-full before:-left-4 before:top-2/4 before:-translate-y-2/4 before:bg-slate-400 inline-block px-3 py-2 rounded bg-slate-50 shadow">
@@ -23,9 +23,9 @@ function Skills() {
   return (
     <section className="pb-11">
       <h2 className="pt-4 heading text-3xl">
-        Skills{" "}
+        My knowledge{" "}
         <img
-          src={skillsIcon}
+          src={bookIcon}
           alt="skills"
           className="inline-block align-baseline ml-2"
         />
@@ -34,9 +34,9 @@ function Skills() {
         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est ipsam id
         porro ullam expedita sunt pariatur omnis animi rerum qui?
       </p>
-      <ul className="flex flex-wrap">{skillItems}</ul>
+      <ul className="flex flex-wrap">{knowledgeItems}</ul>
     </section>
   );
 }
 
-export default Skills;
+export default Knowledge;
