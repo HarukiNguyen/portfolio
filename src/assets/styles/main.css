@@ -118,7 +118,7 @@
   }
 }
 
-@layer components {
+@layer utilities {
   .hocus-state {
     @apply bg-slate-100 outline-none;
   }
@@ -126,8 +126,9 @@
   .text-underline {
     @apply relative before:absolute before:-z-10 before:w-full before:h-1/5 before:left-0 before:top-3/4 before:bg-slate-300;
   }
-  }
+}
 
+@layer components {
   .heading {
     @apply font-heading font-bold;
   }
