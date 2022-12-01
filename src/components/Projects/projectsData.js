@@ -1,13 +1,13 @@
 import blogThumb from '../../assets/images/projects/blog/desk.jpg';
-import blogIcon from "../../assets/images/projects/blog/pencil.png";
+import blogIcon from "../../assets/images/projects/blog/pencil.svg";
 import expressLoveThumb from "../../assets/images/projects/express-your-love/desk.jpg";
-import expressLoveIcon from "../../assets/images/projects/express-your-love/heart.png";
-import linkInBioIcon from "../../assets/images/projects/link-in-bio/clover.png";
+import expressLoveIcon from "../../assets/images/projects/express-your-love/heart.svg";
+import linkInBioIcon from "../../assets/images/projects/link-in-bio/clover.svg";
 import linkInBioThumb from "../../assets/images/projects/link-in-bio/desk.jpg";
 import todolistThumb from "../../assets/images/projects/react-redux-todolist/desk.jpg";
-import todolistIcon from "../../assets/images/projects/react-redux-todolist/todolist.png";
+import todolistIcon from "../../assets/images/projects/react-redux-todolist/todolist.svg";
 import webFormThumb from "../../assets/images/projects/web-form/desk.jpg";
-import webFormIcon from "../../assets/images/projects/web-form/form.png";
+import webFormIcon from "../../assets/images/projects/web-form/check.svg";
 
 const projects = [
   {

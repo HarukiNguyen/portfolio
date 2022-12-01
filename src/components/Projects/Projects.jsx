@@ -1,4 +1,4 @@
-import projectLaunchIcon from "../../assets/icons/project-launch.png";
+import computerIcon from "../../assets/icons/computer.svg";
 import linkIcon from "../../assets/icons/link-16.png";
 import { projects } from "./projectsData";
 
@@ -15,7 +15,7 @@ function Projects() {
           <img src={thumbnailUrl} alt={name} className="rounded-3xl" />
           <div className="absolute bottom-0 translate-y-2/4 h-52 bg-slate-50 left-2/4 -translate-x-2/4 w-10/12 px-7 py-6 rounded-3xl shadow-lg">
             <span className="flex justify-center pb-3">
-              <img src={iconUrl} alt={`${name} icon`} />
+              <img src={iconUrl} alt={`${name} icon`} className="w-8" />
             </span>
             <div className="flex justify-center">
               <h3 className="inline-block heading text-underline text-2xl">
@@ -45,12 +45,7 @@ function Projects() {
   return (
     <section className="pb-11">
       <h2 className="pt-4 heading text-3xl">
-        What I've been working on{" "}
-        <img
-          src={projectLaunchIcon}
-          alt="skills"
-          className="inline-block align-baseline pl-2"
-        />
+        What I've been working on <span className="pl-4">💻</span>
       </h2>
       <ul className="pt-6">{projectItems}</ul>
     </section>

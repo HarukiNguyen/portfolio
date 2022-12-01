@@ -1,5 +1,4 @@
 import React from "react";
-import bookIcon from "../assets/icons/book.png";
 
 const knowledgeData = [
   "HTML & CSS",
@@ -22,13 +21,8 @@ function Knowledge() {
 
   return (
     <section className="pb-11">
-      <h2 className="pt-4 heading text-3xl">
-        My knowledge{" "}
-        <img
-          src={bookIcon}
-          alt="skills"
-          className="inline-block align-baseline pl-2"
-        />
+      <h2 className="flex items-center pt-4 heading text-3xl">
+        My knowledge <span className="pl-4">📖</span>
       </h2>
       <p className="py-6">
         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est ipsam id

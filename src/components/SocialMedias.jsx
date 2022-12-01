@@ -1,6 +1,6 @@
-import emailIcon from "../assets/icons/email.png";
-import githubIcon from "../assets/icons/github.png";
-import linkedinIcon from "../assets/icons/linkedin.png";
+import emailIcon from "../assets/icons/email.svg";
+import githubIcon from "../assets/icons/github.svg";
+import linkedinIcon from "../assets/icons/linkedin.svg";
 
 const socialMediasData = [
   {
@@ -30,7 +30,7 @@ function SocialMedias() {
           title={name}
           className="block p-2 rounded-full focus:hocus-state hover:hocus-state cursor-pointer"
         >
-          <img src={iconUrl} alt={name} />
+          <img src={iconUrl} alt={name} className="w-6" />
         </a>
       </li>
     );
