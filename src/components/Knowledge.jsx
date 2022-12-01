@@ -27,7 +27,7 @@ function Knowledge() {
         <img
           src={bookIcon}
           alt="skills"
-          className="inline-block align-baseline ml-2"
+          className="inline-block align-baseline pl-2"
         />
       </h2>
       <p className="py-6">
