@@ -59,6 +59,15 @@ module.exports = {
         'body': ['"Open Sans"', '"Poppins"', '"Noto Sans"', 'sans-serif'],
         'heading': ['"Playfair Display"', 'serif'],
       },
+      animation: {
+        'fadeIn': 'fadeIn 1.5s ease-out forwards'
+      },
+      keyframes: {
+        fadeIn: {
+          '0%': { opacity: '0' },
+          '100%': { opacity: '1' }
+        }
+      }
     },
   },
   plugins: [],
