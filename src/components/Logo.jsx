@@ -6,7 +6,7 @@ function Logo() {
       <a
         href="/"
         alt="logo"
-        className="px-2 py-1 rounded focus:hocus-state cursor-pointer"
+        className="transition-colors px-2 py-1 rounded focus:hocus-state cursor-pointer"
       >
         <img src={logo} alt="logo" />
       </a>
