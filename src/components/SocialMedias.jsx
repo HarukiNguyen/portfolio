@@ -28,7 +28,7 @@ function SocialMedias() {
         <a
           href={url}
           title={name}
-          className="block p-2 rounded-full focus:hocus-state hover:hocus-state cursor-pointer"
+          className="block p-2 rounded-full transition-colors	focus:hocus-state hover:hocus-state cursor-pointer"
         >
           <img src={iconUrl} alt={name} className="w-6" />
         </a>
