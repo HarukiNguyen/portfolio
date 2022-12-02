@@ -10,7 +10,7 @@ function Projects() {
     const linkText = completed ? "view project" : "comming soon";
 
     return (
-      <li key={name} className="pb-40">
+      <li key={name} className="pb-40 w-10/12">
         <div className="relative">
           <img src={thumbnailUrl} alt={name} className="rounded-3xl" />
           <div className="absolute bottom-0 translate-y-2/4 h-52 bg-slate-50 left-2/4 -translate-x-2/4 w-10/12 px-7 py-6 rounded-3xl shadow-lg">
@@ -47,7 +47,7 @@ function Projects() {
       <h2 className="section-heading">
         What I've been working on <span>💻</span>
       </h2>
-      <ul className="pt-6">{projectItems}</ul>
+      <ul className="flex justify-center flex-wrap pt-16">{projectItems}</ul>
     </section>
   );
 }
