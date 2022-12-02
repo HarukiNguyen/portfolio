@@ -6,10 +6,7 @@ const navs = ["about", "projects", "contact"];
 function Header() {
   const navItems = navs.map((nav) => {
     return (
-      <li
-        key={nav}
-        className="py-1 text-slate-600 hover:font-bold hover:text-slate-800"
-      >
+      <li key={nav} className="py-2">
         <a
           href={`/${nav}`}
           className="rounded px-2 text-xl capitalize text-slate-600  transition-color focus:hocus-state hover:font-bold hover:text-slate-800"
