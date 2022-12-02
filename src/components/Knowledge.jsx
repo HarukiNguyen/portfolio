@@ -20,7 +20,7 @@ function Knowledge() {
   ));
 
   return (
-    <section className="pb-11">
+    <section className="pb-11" id="knowledge">
       <h2 className="section-heading">
         My knowledge <span> 📖</span>
       </h2>

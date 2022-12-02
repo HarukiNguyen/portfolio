@@ -1,14 +1,14 @@
 import SocialMedias from "../components/SocialMedias";
 import Logo from "../components/Logo";
 
-const navs = ["about", "projects", "contact"];
+const navs = ["about", "knowledge", "projects", "contact"];
 
 function Header() {
   const navItems = navs.map((nav) => {
     return (
       <li key={nav} className="py-2">
         <a
-          href={`/${nav}`}
+          href={`/#${nav}`}
           className="rounded px-2 text-xl capitalize text-slate-600  transition-color focus:hocus-state hover:hocus-state active:bg-slate-200"
         >
           {nav}

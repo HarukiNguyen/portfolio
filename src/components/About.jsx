@@ -16,7 +16,7 @@ function About() {
   });
 
   return (
-    <section className="pb-11">
+    <section className="pb-11" id="about">
       <h1 className="pb-11 heading leading-tight text-4xl">
         Hi, I'm Haruki Nguyen, I am a{" "}
         <span className="inline-block capitalize text-underline">
