@@ -132,4 +132,8 @@
   .heading {
     @apply font-heading font-bold;
   }
+
+  .section-heading {
+    @apply pt-4 heading text-3xl;
+  }
 }

@@ -21,8 +21,8 @@ function Knowledge() {
 
   return (
     <section className="pb-11">
-      <h2 className="flex items-center pt-4 heading text-3xl">
-        My knowledge <span className="pl-4">📖</span>
+      <h2 className="section-heading">
+        My knowledge <span> 📖</span>
       </h2>
       <p className="py-6">
         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est ipsam id

@@ -44,8 +44,8 @@ function Projects() {
 
   return (
     <section className="pb-11">
-      <h2 className="pt-4 heading text-3xl">
-        What I've been working on <span className="pl-4">💻</span>
+      <h2 className="section-heading">
+        What I've been working on <span>💻</span>
       </h2>
       <ul className="pt-6">{projectItems}</ul>
     </section>
