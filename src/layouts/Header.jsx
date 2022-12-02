@@ -12,7 +12,7 @@ function Header() {
       >
         <a
           href={`/${nav}`}
-          className="rounded px-2 capitalize focus:hocus-state"
+          className="rounded px-2 text-xl capitalize text-slate-600  transition-color focus:hocus-state hover:font-bold hover:text-slate-800"
         >
           {nav}
         </a>
