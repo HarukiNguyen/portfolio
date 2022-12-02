@@ -25,7 +25,7 @@ function Header() {
           <SocialMedias />
         </div>
       </div>
-      <ul className="inline-block pt-4">{navItems}</ul>
+      <ul className="flex justify-between pt-3">{navItems}</ul>
     </header>
   );
 }
