@@ -18,12 +18,14 @@ function Header() {
   });
 
   return (
-    <header className="pt-3">
-      <div className="flex justify-between">
-        <Logo />
-        <SocialMedias />
+    <header>
+      <div className="-mx-3 px-3 py-3 bg-slate-200 shadow-md">
+        <div className="flex justify-between">
+          <Logo />
+          <SocialMedias />
+        </div>
       </div>
-      <ul className="inline-block pt-7">{navItems}</ul>
+      <ul className="inline-block pt-4">{navItems}</ul>
     </header>
   );
 }
