@@ -9,7 +9,7 @@ function Header() {
       <li key={nav} className="py-2">
         <a
           href={`/${nav}`}
-          className="rounded px-2 text-xl capitalize text-slate-600  transition-color focus:hocus-state hover:font-bold hover:text-slate-800"
+          className="rounded px-2 text-xl capitalize text-slate-600  transition-color focus:hocus-state hover:hocus-state active:bg-slate-200"
         >
           {nav}
         </a>
