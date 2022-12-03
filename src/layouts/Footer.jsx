@@ -15,6 +15,7 @@ function Footer() {
       className="-mx-3 py-10 px-3 bg-slate-200 opacity-0"
       ref={footerRef}
     >
+      {/* contact */}
       <section className="text-center pb-12" id="contact">
         <h2 className="heading text-3xl">Let's build the world with me</h2>
         <p className="py-6 text-slate-700">
@@ -29,6 +30,8 @@ function Footer() {
           nmd03pvt@gmail.com
         </a>
       </section>
+
+      {/* logo and social media */}
       <section className="">
         <div className="flex justify-center pb-9">
           <Logo />
