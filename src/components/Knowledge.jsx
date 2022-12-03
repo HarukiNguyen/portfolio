@@ -1,4 +1,5 @@
-import React from "react";
+import React, { useEffect, useRef } from "react";
+import visibleAni from "../ultilities/visibleAni";
 
 const knowledgeData = [
   "HTML & CSS",
@@ -9,6 +10,12 @@ const knowledgeData = [
 ];
 
 function Knowledge() {
+  const sectionRef = useRef(null);
+
+  useEffect(() => {
+    visibleAni(sectionRef.current, "animate-fadeIn");
+  }, []);
+
   const knowledgeItems = knowledgeData.map((skill) => (
     <li key={skill} className="w-2/4 pb-6 pl-7">
       <div className="">
@@ -20,7 +27,7 @@ function Knowledge() {
   ));
 
   return (
-    <section className="pb-11" id="knowledge">
+    <section className="pb-11" id="knowledge" ref={sectionRef}>
       <h2 className="section-heading">
         My knowledge <span> 📖</span>
       </h2>
