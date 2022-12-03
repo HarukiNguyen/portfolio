@@ -14,8 +14,6 @@ function ProjectList() {
     const { name, iconUrl, description, completed, url, thumbnailUrl } =
       project;
 
-    const linkText = completed ? "view project" : "comming soon";
-
     return (
       <li
         key={name}
@@ -29,7 +27,7 @@ function ProjectList() {
             iconUrl={iconUrl}
             description={description}
             url={url}
-            linkText={linkText}
+            completed={completed}
           />
         </div>
       </li>

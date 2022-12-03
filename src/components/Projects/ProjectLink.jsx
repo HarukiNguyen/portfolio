@@ -1,9 +1,13 @@
-function ProjectLink({ url, linkText, linkIcon, name }) {
+function ProjectLink({ url, completed, linkIcon, name }) {
+  const linkText = completed ? "view project" : "comming soon";
+
   return (
     <div className="text-center pt-3">
       <a
         href={url}
-        className="group px-2 py-1 rounded relative underline uppercase font-bold hover:text-slate-600 focus:bg-slate-200 focus:outline-none"
+        className={`${
+          !completed ? "disable-link text-slate-400 no-underline" : ""
+        } group px-2 py-1 rounded relative underline uppercase font-bold hover:text-slate-600 focus:bg-slate-200 focus:outline-none `}
       >
         {linkText}
         <img
