@@ -15,8 +15,9 @@ function Knowledge() {
         My knowledge <span> 📖</span>
       </h2>
       <p className="py-6">
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est ipsam id
-        porro ullam expedita sunt pariatur omnis animi rerum qui?
+        Through my journey, I have gained a solid understanding of the Internet,
+        computer, and web technologies. I also spent a lot of time applying
+        these concepts to many scenarios and applications.
       </p>
       <KnowledgeItems />
     </section>
