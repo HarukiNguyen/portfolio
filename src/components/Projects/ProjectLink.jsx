@@ -9,7 +9,7 @@ function ProjectLink({ url, linkText, linkIcon, name }) {
         <img
           src={linkIcon}
           alt={name}
-          className="hidden absolute left-full pl-1 top-2/4 -translate-y-2/4 group-hover:inline-block group-focus:inline-block"
+          className="scale-0 absolute w-6 left-full pl-1 top-2/4 -translate-y-2/4 group-hover:scale-100 group-focus:scale-100 transition-transform origin-[left_center]"
         />
       </a>
     </div>

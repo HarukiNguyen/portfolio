@@ -1,4 +1,4 @@
-import linkIcon from "../../assets/icons/link-16.png";
+import linkIcon from "../../assets/icons/link.svg";
 import ProjectIcon from "./ProjectIcon";
 import ProjectName from "./ProjectName";
 import ProjectLink from "./ProjectLink";
