@@ -16,7 +16,7 @@ const projects = [
     description:
       "My profile contains list of social media",
     completed: true,
-    url: "/projects/link-in-bio",
+    url: "/link-in-bio",
     thumbnailUrl: linkInBioThumb,
   },
   {
@@ -25,7 +25,7 @@ const projects = [
     description:
       "A todolist app create with React and Redux",
     completed: true,
-    url: "/projects/react-redux-todolist",
+    url: "/todolist",
     thumbnailUrl: todolistThumb,
   },
   {
@@ -34,7 +34,7 @@ const projects = [
     description:
       "Web forms use to test my own Validator library",
     completed: true,
-    url: "/projects/react-redux-todolist",
+    url: "/web-form",
     thumbnailUrl: webFormThumb,
   },
   {
@@ -43,7 +43,7 @@ const projects = [
     description:
       "Hope your have your love!",
     completed: true,
-    url: "/projects/react-redux-todolist",
+    url: "/express-your-love",
     thumbnailUrl: expressLoveThumb,
   },
   {
@@ -52,7 +52,7 @@ const projects = [
     description:
       "I write about my life",
     completed: false,
-    url: "",
+    url: "/",
     thumbnailUrl: blogThumb,
   },
 ];
