@@ -12,13 +12,13 @@ function Footer() {
 
   return (
     <footer
-      className="-mx-3 py-10 px-3 bg-slate-200 opacity-0"
+      className="-mx-3 py-14 px-3 bg-slate-200 opacity-0"
       ref={footerRef}
     >
       {/* contact */}
-      <section className="text-center pb-12" id="contact">
+      <section className="text-center" id="contact">
         <h2 className="heading text-3xl">Let's build the world with me</h2>
-        <p className="py-6 text-slate-700">
+        <p className="py-8 text-slate-700">
           Just contact with me when you need a developer, have some questions,
           or just want to connect
         </p>
@@ -33,7 +33,7 @@ function Footer() {
 
       {/* logo and social media */}
       <section className="">
-        <div className="flex justify-center pb-9">
+        <div className="flex justify-center py-10">
           <Logo />
         </div>
         <div className="flex justify-center">
