@@ -1,5 +1,7 @@
+import Content from "../layouts/Content";
+
 function Home() {
-  return <div>Home</div>;
+  return <Content />;
 }
 
 export default Home;
