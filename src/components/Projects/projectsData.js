@@ -2,34 +2,23 @@ import blogThumb from '../../assets/images/projects/blog/desk.jpg';
 import blogIcon from "../../assets/images/projects/blog/pencil.svg";
 import expressLoveThumb from "../../assets/images/projects/express-your-love/desk.jpg";
 import expressLoveIcon from "../../assets/images/projects/express-your-love/heart.svg";
-import linkInBioIcon from "../../assets/images/projects/link-in-bio/clover.svg";
-import linkInBioThumb from "../../assets/images/projects/link-in-bio/desk.jpg";
-import todolistThumb from "../../assets/images/projects/react-redux-todolist/desk.jpg";
-import todolistIcon from "../../assets/images/projects/react-redux-todolist/todolist.svg";
-import webFormThumb from "../../assets/images/projects/web-form/desk.jpg";
 import webFormIcon from "../../assets/images/projects/web-form/check.svg";
+import webFormThumb from "../../assets/images/projects/web-form/desk.jpg";
 
 const projects = [
   {
-    name: "Link in bio",
-    iconUrl: linkInBioIcon,
+    name: "ValidatorJS",
+    detailName: "Web form Validator",
+    iconUrl: webFormIcon,
     description:
-      "My profile contains list of social media",
-    completed: true,
-    url: "/link-in-bio",
-    thumbnailUrl: linkInBioThumb,
-  },
-  {
-    name: "Todo list",
-    iconUrl: todolistIcon,
-    description:
-      "A todolist app create with React and Redux",
-    completed: true,
-    url: "/todolist",
-    thumbnailUrl: todolistThumb,
+      "A simple Validator library for web form",
+    completed: false,
+    url: "/validatorJS",
+    thumbnailUrl: webFormThumb,
   },
   {
     name: "Web form",
+    detailName: "Web form application",
     iconUrl: webFormIcon,
     description:
       "Web forms use to test my own Validator library",
@@ -39,6 +28,7 @@ const projects = [
   },
   {
     name: "Your love",
+    detailName: "Be brave to express your love",
     iconUrl: expressLoveIcon,
     description:
       "Hope your have your love!",
@@ -52,7 +42,7 @@ const projects = [
     description:
       "I write about my life",
     completed: false,
-    url: "/",
+    url: "/blog",
     thumbnailUrl: blogThumb,
   },
 ];
