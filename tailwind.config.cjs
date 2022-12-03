@@ -60,7 +60,7 @@ module.exports = {
         'heading': ['"Playfair Display"', 'serif'],
       },
       animation: {
-        'fadeIn': 'fadeIn 1.5s ease-out forwards'
+        'fadeIn': 'fadeIn 2s ease-out forwards'
       },
       keyframes: {
         fadeIn: {
