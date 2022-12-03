@@ -2,19 +2,21 @@ import blogThumb from '../../assets/images/projects/blog/desk.jpg';
 import blogIcon from "../../assets/images/projects/blog/pencil.svg";
 import expressLoveThumb from "../../assets/images/projects/express-your-love/desk.jpg";
 import expressLoveIcon from "../../assets/images/projects/express-your-love/heart.svg";
-import webFormIcon from "../../assets/images/projects/web-form/check.svg";
+import webFormIcon from "../../assets/images/projects/web-form/password.svg";
 import webFormThumb from "../../assets/images/projects/web-form/desk.jpg";
+import validatorJSIcon from '../../assets/images/projects/ValidatorJS/sheild.svg'
+import validatorJSThumb from '../../assets/images/projects/ValidatorJS/desk.jpg'
 
 const projects = [
   {
     name: "ValidatorJS",
     detailName: "Web form Validator",
-    iconUrl: webFormIcon,
+    iconUrl: validatorJSIcon,
     description:
       "A simple Validator library for web form",
     completed: false,
     url: "/validatorJS",
-    thumbnailUrl: webFormThumb,
+    thumbnailUrl: validatorJSThumb,
   },
   {
     name: "Web form",
