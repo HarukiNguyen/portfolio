@@ -3,7 +3,7 @@ import Logo from "../components/Logo";
 
 function Footer() {
   return (
-    <footer className="-mx-3 py-10 px-3 bg-slate-200">
+    <footer className="-mx-3 py-10 px-3 bg-slate-200 animate-fadeIn">
       <section className="text-center pb-12" id="contact">
         <h2 className="heading text-3xl">Let's build the world with me</h2>
         <p className="py-6 text-slate-700">

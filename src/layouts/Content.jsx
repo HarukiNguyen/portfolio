@@ -4,7 +4,7 @@ import Projects from "../components/Projects/Projects";
 
 function Content() {
   return (
-    <main className="py-20">
+    <main className="py-20 animate-fadeIn">
       <About />
       <Knowledge />
       <Projects />
