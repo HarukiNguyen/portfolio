@@ -24,7 +24,7 @@ function About() {
           web developer
         </span>
       </h1>
-      <div className="py-10">{aboutTexts}</div>
+      <div className="py-10 px-2">{aboutTexts}</div>
       <Avatar />
     </section>
   );
