@@ -24,15 +24,13 @@ function ProjectList() {
       >
         <div className="relative">
           <img src={thumbnailUrl} alt={name} className="rounded-3xl" />
-          <div className="absolute bottom-0 translate-y-2/4 bg-slate-50 left-2/4 -translate-x-2/4 w-10/12 px-7 py-6 rounded-3xl shadow-lg">
-            <ProjectInfo
-              name={name}
-              iconUrl={iconUrl}
-              description={description}
-              url={url}
-              linkText={linkText}
-            />
-          </div>
+          <ProjectInfo
+            name={name}
+            iconUrl={iconUrl}
+            description={description}
+            url={url}
+            linkText={linkText}
+          />
         </div>
       </li>
     );
