@@ -126,10 +126,6 @@
   .text-underline {
     @apply relative before:absolute before:-z-10 before:w-full before:h-1/5 before:left-0 before:top-3/4 before:bg-slate-300;
   }
-
-  .paragraph-dot {
-    @apply relative before:absolute before:w-[6px] before:h-[6px] before:rounded-full before:bg-slate-400;
-  }
 }
 
 @layer components {
@@ -139,5 +135,13 @@
 
   .section-heading {
     @apply pt-4 heading text-3xl;
+  }
+
+  .paragraph-dot {
+    @apply relative before:absolute before:w-[6px] before:h-[6px] before:rounded-full before:bg-slate-400;
+  }
+
+  .disable-link {
+    @apply pointer-events-none cursor-default;
   }
 }
