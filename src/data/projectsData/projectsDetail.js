@@ -9,7 +9,7 @@ const projectsDetail = [
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris lorem arcu, molestie posuere risus sed, efficitur tincidunt risus. Etiam ', 'lorem nibh, efficitur id posuere eget, dignissim non sapien. Nunc in lorem eu ligula condimentum tempor. Nunc volutpat sagittis tristique. Cras.'
     ],
     type: 'Personal project',
-    techs: ['HTML & CSS', 'Javascript'],
+    tech: ['HTML & CSS', 'Javascript'],
     imgs: {
       introImg: webFromPreview,
       previewImg: ['https://picsum.photos/500/500', 'https://picsum.photos/500/300', 'https://picsum.photos/500/700']
@@ -26,7 +26,7 @@ const projectsDetail = [
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris lorem arcu, molestie posuere risus sed, efficitur tincidunt risus. Etiam ', 'lorem nibh, efficitur id posuere eget, dignissim non sapien. Nunc in lorem eu ligula condimentum tempor. Nunc volutpat sagittis tristique. Cras.'
     ],
     type: 'Personal project',
-    techs: ['HTML & CSS', 'Javascript'],
+    tech: ['HTML & CSS', 'Javascript'],
     imgs: {
       introImg: webFromPreview,
       previewImg: ['https://picsum.photos/500/500', 'https://picsum.photos/500/400', 'https://picsum.photos/500/600']
