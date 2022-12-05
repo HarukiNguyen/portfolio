@@ -1,10 +1,10 @@
-import { projectsOverview } from "../data/projectsData";
 import { useParams } from "react-router-dom";
+import { projectsData } from "../data/projectsData";
 
 function ProjectPage() {
   const params = useParams();
 
-  const project = projectsOverview.find(
+  const project = projectsData.find(
     (project) => `/${params.project}` === project.url
   );
 
