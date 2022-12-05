@@ -1,7 +1,7 @@
 import { useEffect, useRef } from "react";
+import { projectsOverview } from "../../data/projectsData";
 import visibleAni from "../../ultilities/visibleAni";
 import ProjectInfo from "./ProjectInfo";
-import { projects } from "../../data/projectsData";
 
 function ProjectList() {
   const projectsRef = useRef([]);
@@ -10,7 +10,7 @@ function ProjectList() {
     visibleAni(projectsRef.current, "animate-fadeIn");
   }, []);
 
-  const projectItems = projects.map((project, index) => {
+  const projectItems = projectsOverview.map((project, index) => {
     const { name, iconUrl, description, completed, url, thumbnailUrl } =
       project;
 
