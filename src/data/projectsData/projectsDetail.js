@@ -11,8 +11,8 @@ const projectsDetail = [
     type: 'Personal project',
     techs: ['HTML & CSS', 'Javascript'],
     imgs: {
-      previewImg: webFromPreview,
-      introImg: ['https://picsum.photos/500/500', 'https://picsum.photos/500/300', 'https://picsum.photos/500/700']
+      introImg: webFromPreview,
+      previewImg: ['https://picsum.photos/500/500', 'https://picsum.photos/500/300', 'https://picsum.photos/500/700']
     },
     techAndExplain: [
       'Javascript: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris lorem arcu, molestie posuere risus sed, efficitur tincidunt risus. Etiam '
@@ -28,8 +28,8 @@ const projectsDetail = [
     type: 'Personal project',
     techs: ['HTML & CSS', 'Javascript'],
     imgs: {
-      previewImg: webFromPreview,
-      introImg: ['https://picsum.photos/500/500', 'https://picsum.photos/500/400', 'https://picsum.photos/500/600']
+      introImg: webFromPreview,
+      previewImg: ['https://picsum.photos/500/500', 'https://picsum.photos/500/400', 'https://picsum.photos/500/600']
     },
     techAndExplain: [
       'Javascript: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris lorem arcu, molestie posuere risus sed, efficitur tincidunt risus. Etiam '
