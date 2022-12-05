@@ -1,7 +1,7 @@
 import { useEffect, useRef } from "react";
 import visibleAni from "../../ultilities/visibleAni";
 import ProjectInfo from "./ProjectInfo";
-import { projects } from "./projectsData";
+import { projects } from "../../data/projectsData";
 
 function ProjectList() {
   const projectsRef = useRef([]);

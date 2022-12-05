@@ -1,4 +1,4 @@
-import { projects } from "../components/Projects/projectsData";
+import { projects } from "../data/projectsData";
 import { useParams } from "react-router-dom";
 
 function ProjectPage() {

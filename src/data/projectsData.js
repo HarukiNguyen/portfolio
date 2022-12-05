@@ -1,11 +1,15 @@
-import blogThumb from '../../assets/images/projects/blog/desk.jpg';
-import blogIcon from "../../assets/images/projects/blog/pencil.svg";
-import expressLoveThumb from "../../assets/images/projects/express-your-love/desk.jpg";
-import expressLoveIcon from "../../assets/images/projects/express-your-love/heart.svg";
-import webFormIcon from "../../assets/images/projects/web-form/password.svg";
-import webFormThumb from "../../assets/images/projects/web-form/desk.jpg";
-import validatorJSIcon from '../../assets/images/projects/ValidatorJS/sheild.svg'
-import validatorJSThumb from '../../assets/images/projects/ValidatorJS/desk.jpg'
+// Import project item assets
+import blogThumb from '../assets/images/projects/blog/desk.jpg';
+import blogIcon from "../assets/images/projects/blog/pencil.svg";
+import expressLoveThumb from "../assets/images/projects/express-your-love/desk.jpg";
+import expressLoveIcon from "../assets/images/projects/express-your-love/heart.svg";
+import validatorJSThumb from '../assets/images/projects/ValidatorJS/desk.jpg';
+import validatorJSIcon from '../assets/images/projects/ValidatorJS/sheild.svg';
+import webFormThumb from "../assets/images/projects/web-form/desk.jpg";
+import webFormIcon from "../assets/images/projects/web-form/password.svg";
+
+// Import projects detail assets
+import webFromPreview from '../assets/images/projects/web-form/project-detail/workspace.jpg';
 
 const projects = [
   {
