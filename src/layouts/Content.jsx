@@ -4,11 +4,11 @@ import Projects from "../components/Projects/Projects";
 
 function Content() {
   return (
-    <main className="py-20">
+    <>
       <About />
       <Knowledge />
       <Projects />
-    </main>
+    </>
   );
 }
 
