@@ -12,7 +12,7 @@ import webFormIcon from "../../assets/images/projects/web-form/password.svg";
 
 const projectsOverview = [
   {
-    id: 1,
+    id: 0,
     name: "ValidatorJS",
     iconUrl: validatorJSIcon,
     description:
@@ -22,7 +22,7 @@ const projectsOverview = [
     thumbnailUrl: validatorJSThumb,
   },
   {
-    id: 2,
+    id: 1,
     name: "Web form",
     // detailName: "Web form application",
     iconUrl: webFormIcon,
@@ -33,7 +33,7 @@ const projectsOverview = [
     thumbnailUrl: webFormThumb,
   },
   {
-    id: 3,
+    id: 2,
     name: "Your love",
     iconUrl: expressLoveIcon,
     description:
@@ -43,7 +43,7 @@ const projectsOverview = [
     thumbnailUrl: expressLoveThumb,
   },
   {
-    id: 4,
+    id: 3,
     name: "BLog",
     iconUrl: blogIcon,
     description:

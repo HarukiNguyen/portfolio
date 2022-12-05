@@ -2,7 +2,7 @@ import webFromPreview from '../../assets/images/projects/web-form/project-detail
 
 const projectsDetail = [
   {
-    id: 1,
+    id: 0,
     detailName: "Web form Validator",
     purpose: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris lorem arcu, molestie posuere risus sed, efficitur tincidunt risus. Etiam lorem nibh, efficitur id posuere eget, dignissim non sapien. Nunc in lorem eu ligula condimentum tempor. Nunc volutpat sagittis tristique. Cras.',
     goals: [
@@ -19,7 +19,7 @@ const projectsDetail = [
     ]
   },
   {
-    id: 3,
+    id: 2,
     detailName: "Be brave to express your love",
     purpose: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris lorem arcu, molestie posuere risus sed, efficitur tincidunt risus. Etiam lorem nibh, efficitur id posuere eget, dignissim non sapien. Nunc in lorem eu ligula condimentum tempor. Nunc volutpat sagittis tristique. Cras.',
     goals: [
