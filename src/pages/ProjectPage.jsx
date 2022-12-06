@@ -1,4 +1,5 @@
 import { useParams } from "react-router-dom";
+import ProjectGoals from "../components/ProjectPage/ProjectGoals";
 import ProjectIntro from "../components/ProjectPage/ProjectIntro";
 import { projectsData } from "../data/projectsData";
 
@@ -23,6 +24,7 @@ function ProjectPage() {
         tech={tech}
         introImg={introImg}
       />
+      <ProjectGoals goals={goals} />
     </>
   );
 }
