@@ -3,8 +3,8 @@ function ProjectGoals({ goals }) {
     <section>
       <h2>Goals</h2>
       <ul>
-        {goals.map((goal) => (
-          <li key={goal}>{goal}</li>
+        {goals.map((goal, index) => (
+          <li key={index}>{goal}</li>
         ))}
       </ul>
     </section>

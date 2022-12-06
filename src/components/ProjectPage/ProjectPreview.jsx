@@ -3,8 +3,8 @@ function ProjectPreview({ previewImg }) {
     <section>
       <h2>Preview images</h2>
       <ul>
-        {previewImg.map((image) => (
-          <li key={image}>
+        {previewImg.map((image, index) => (
+          <li key={index}>
             <img src={image} alt="Preview image" />
           </li>
         ))}
