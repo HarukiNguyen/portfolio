@@ -16,6 +16,10 @@ const projectsDetail = [
     },
     techAndExplain: [
       'Javascript: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris lorem arcu, molestie posuere risus sed, efficitur tincidunt risus. Etiam '
+    ],
+    lessons: [
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris lorem arcu, molestie posuere risus sed, efficitur tincidunt risus. Etiam ', 'lorem nibh, efficitur id posuere eget, dignissim non sapien. Nunc in lorem eu ligula condimentum tempor. Nunc volutpat sagittis tristique. Cras.'
+
     ]
   },
   {
@@ -33,6 +37,10 @@ const projectsDetail = [
     },
     techAndExplain: [
       'Javascript: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris lorem arcu, molestie posuere risus sed, efficitur tincidunt risus. Etiam '
+    ],
+    lessons: [
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris lorem arcu, molestie posuere risus sed, efficitur tincidunt risus. Etiam ', 'lorem nibh, efficitur id posuere eget, dignissim non sapien. Nunc in lorem eu ligula condimentum tempor. Nunc volutpat sagittis tristique. Cras.'
+
     ]
   }
 ];
