@@ -1,6 +1,7 @@
 import { useParams } from "react-router-dom";
 import ProjectGoals from "../components/ProjectPage/ProjectGoals";
 import ProjectIntro from "../components/ProjectPage/ProjectIntro";
+import ProjectLessons from "../components/ProjectPage/ProjectLessons";
 import ProjectPreview from "../components/ProjectPage/ProjectPreview";
 import ProjectTechExplain from "../components/ProjectPage/ProjectTechExplain";
 import { projectsData } from "../data/projectsData";
@@ -13,8 +14,16 @@ function ProjectPage() {
   );
 
   const { projectDetail } = project;
-  const { detailName, purpose, goals, type, tech, imgs, techAndExplain } =
-    projectDetail;
+  const {
+    detailName,
+    purpose,
+    goals,
+    type,
+    tech,
+    imgs,
+    techAndExplain,
+    lessons,
+  } = projectDetail;
   const { introImg, previewImg } = imgs;
 
   return (
@@ -29,6 +38,7 @@ function ProjectPage() {
       <ProjectGoals goals={goals} />
       <ProjectTechExplain techAndExplain={techAndExplain} />
       <ProjectPreview previewImg={previewImg} />
+      <ProjectLessons lessons={lessons} />
     </>
   );
 }
