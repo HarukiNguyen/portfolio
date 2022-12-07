@@ -4,12 +4,9 @@ import Avatar from "./Avatar";
 function About() {
   const aboutTexts = aboutData.map((about, id) => {
     return (
-      <p
-        key={id}
-        className="pb-5 paragraph-dot pd-lt"
-      >
-        {about}
-      </p>
+      <li className="pb-5 paragraph-dot pd-lt">
+        <p key={id}>{about}</p>
+      </li>
     );
   });
 
@@ -20,11 +17,9 @@ function About() {
     >
       <h1>
         Hi, I'm Haruki Nguyen, I am a{" "}
-        <span className="capitalize text-underline">
-          web developer
-        </span>
+        <span className="capitalize text-underline">web developer</span>
       </h1>
-      <div className="px-2">{aboutTexts}</div>
+      <ul className="px-2">{aboutTexts}</ul>
       <Avatar />
     </section>
   );
