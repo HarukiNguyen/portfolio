@@ -3,6 +3,7 @@ module.exports = {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     margin: {
+      auto: "auto",
       px: "1px",
       0: "0",
       0.5: "2px",
