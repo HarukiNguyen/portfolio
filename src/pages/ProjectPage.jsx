@@ -1,4 +1,5 @@
 import { useParams } from "react-router-dom";
+import OtherProjects from "../components/ProjectPage/OtherProjects/";
 import ProjectGoals from "../components/ProjectPage/ProjectGoals";
 import ProjectIntro from "../components/ProjectPage/ProjectIntro";
 import ProjectLessons from "../components/ProjectPage/ProjectLessons";
@@ -7,10 +8,10 @@ import ProjectTechExplain from "../components/ProjectPage/ProjectTechExplain";
 import { projectsData } from "../data/projectsData";
 
 function ProjectPage() {
-  const params = useParams();
+  const param = useParams();
 
   const project = projectsData.find(
-    (project) => `/${params.project}` === project.url
+    (project) => `/${param.project}` === project.url
   );
 
   const { projectDetail } = project;
@@ -39,6 +40,7 @@ function ProjectPage() {
       <ProjectTechExplain techAndExplain={techAndExplain} />
       <ProjectPreview previewImg={previewImg} />
       <ProjectLessons lessons={lessons} />
+      <OtherProjects param={param} />
     </>
   );
 }
