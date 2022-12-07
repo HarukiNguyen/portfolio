@@ -6,7 +6,7 @@ function About() {
     return (
       <p
         key={id}
-        className="indent-5 pb-5 paragraph-dot before:left-0 before:top-[0.5em]"
+        className="pb-5 paragraph-dot pd-lt"
       >
         {about}
       </p>

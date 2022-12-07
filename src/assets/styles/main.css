@@ -154,6 +154,14 @@
     @apply relative before:absolute before:w-[6px] before:h-[6px] before:rounded-full before:bg-slate-400;
   }
 
+  .pd-lc {
+    @apply before:top-2/4 before:-translate-y-2/4  before:-left-4;
+  }
+
+  .pd-lt {
+    @apply indent-5 before:left-0 before:top-[0.5em];
+  }
+
   .disable-link {
     @apply pointer-events-none cursor-default;
   }

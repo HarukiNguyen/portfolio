@@ -1,6 +1,6 @@
 import React, { useEffect, useRef } from "react";
 import visibleAni from "../../ultilities/visibleAni";
-import KnowledgeItems from "./knowledgeList";
+import KnowledgeList from "./KnowledgeList";
 
 function Knowledge() {
   const sectionRef = useRef(null);
@@ -19,7 +19,7 @@ function Knowledge() {
         computer, and web technologies. I also spent a lot of time applying
         these concepts to many scenarios and applications.
       </p>
-      <KnowledgeItems />
+      <KnowledgeList />
     </section>
   );
 }
