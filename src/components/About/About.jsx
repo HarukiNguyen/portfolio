@@ -20,7 +20,7 @@ function About() {
     >
       <h1>
         Hi, I'm Haruki Nguyen, I am a{" "}
-        <span className="inline-block capitalize text-underline">
+        <span className="capitalize text-underline">
           web developer
         </span>
       </h1>
