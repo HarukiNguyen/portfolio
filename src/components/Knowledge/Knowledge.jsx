@@ -11,7 +11,7 @@ function Knowledge() {
 
   return (
     <section id="knowledge" ref={sectionRef}>
-      <h2 className="section-heading">
+      <h2>
         My knowledge <span> 📖</span>
       </h2>
       <p className="py-6">

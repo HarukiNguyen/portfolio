@@ -18,7 +18,7 @@ function About() {
       className="animate-fadeIn [animation-delay:0.75s] opacity-0"
       id="about"
     >
-      <h1 className="heading leading-tight text-4xl">
+      <h1>
         Hi, I'm Haruki Nguyen, I am a{" "}
         <span className="inline-block capitalize text-underline">
           web developer

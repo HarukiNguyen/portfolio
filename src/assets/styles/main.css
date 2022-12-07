@@ -121,6 +121,14 @@
   section {
     @apply pb-11;
   }
+
+  section > h1 {
+    @apply heading leading-tight text-4xl;
+  }
+
+  section > h2 {
+    @apply pt-4 heading text-3xl;
+  }
 }
 
 @layer utilities {
@@ -136,10 +144,6 @@
 @layer components {
   .heading {
     @apply font-heading font-bold;
-  }
-
-  .section-heading {
-    @apply pt-4 heading text-3xl;
   }
 
   .paragraph-dot {
