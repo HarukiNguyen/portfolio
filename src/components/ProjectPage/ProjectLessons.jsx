@@ -1,10 +1,12 @@
 function ProjectLessons({ lessons }) {
   return (
-    <section>
+    <section className="text-center">
       <h2>Problems and lessons</h2>
       <ul>
         {lessons.map((lesson, index) => (
-          <li key={index}>{lesson}</li>
+          <li key={index} className="pb-5">
+            {lesson}
+          </li>
         ))}
       </ul>
     </section>
