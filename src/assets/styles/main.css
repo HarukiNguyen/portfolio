@@ -118,6 +118,10 @@
   }
 
   /* Element setup */
+  a {
+    @apply inline-block;
+  }
+
   section {
     @apply pb-11;
   }
