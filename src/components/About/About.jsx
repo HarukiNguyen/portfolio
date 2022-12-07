@@ -4,8 +4,8 @@ import Avatar from "./Avatar";
 function About() {
   const aboutTexts = aboutData.map((about, id) => {
     return (
-      <li className="pb-5 paragraph-dot pd-lt">
-        <p key={id}>{about}</p>
+      <li key={id} className="pb-5 paragraph-dot pd-lt">
+        <p >{about}</p>
       </li>
     );
   });
