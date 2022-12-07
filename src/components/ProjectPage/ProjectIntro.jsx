@@ -11,11 +11,7 @@ function ProjectIntro({ detailName, url, purpose, type, stack, introImg }) {
         >
           <h1 className="inline pb-0">{detailName}</h1>
           <div className="inline-flex items-center">
-            <img
-              src={linkIcon}
-              alt="Link icon"
-              className="block pl-3 w-10 group-hover:scale-110 group-focus:scale-110 transition-transform"
-            />
+            <img src={linkIcon} alt="Link icon" className="block pl-3 w-10" />
           </div>
         </a>
       </div>
