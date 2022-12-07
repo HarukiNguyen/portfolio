@@ -54,6 +54,14 @@ module.exports = {
     scrollPadding: ({ theme }) => ({
       ...theme("margin"),
     }),
+    screens: {
+      'tablet': '768px',
+      'laptop': '1024px',
+      'desktop': '1289px'
+    },
+    container: {
+      center: true
+    },
     extend: {
       fontFamily: {
         'body': ['"Open Sans"', '"Poppins"', '"Noto Sans"', 'sans-serif'],
