@@ -67,6 +67,9 @@ module.exports = {
           '0%': { opacity: '0' },
           '100%': { opacity: '1' }
         }
+      },
+      boxShadow: {
+        '3xl': '0px 5px 3px -4px rgba(0,0,0,0.3), 0px 16px 15px -3px rgba(0,0,0,0.2)'
       }
     },
   },
