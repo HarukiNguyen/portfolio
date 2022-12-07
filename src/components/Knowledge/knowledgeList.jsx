@@ -11,7 +11,7 @@ function KnowledgeItems() {
     </li>
   ));
 
-  return <ul className="flex flex-wrap">{knowledgeItems}</ul>;
+  return <ul className="py-6 flex flex-wrap">{knowledgeItems}</ul>;
 }
 
 export default KnowledgeItems;

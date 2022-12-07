@@ -127,11 +127,11 @@
   }
 
   section h1 {
-    @apply heading leading-tight text-4xl;
+    @apply pb-10 heading leading-tight text-4xl;
   }
 
   section h2 {
-    @apply pt-4 heading text-3xl;
+    @apply pb-6 heading text-3xl;
   }
 }
 

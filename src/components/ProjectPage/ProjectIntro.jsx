@@ -3,22 +3,24 @@ import linkIcon from "../../assets/icons/link.svg";
 function ProjectIntro({ detailName, url, purpose, type, stack, introImg }) {
   return (
     <section>
-      <a
-        href={url}
-        alt={detailName}
-        className="group px-2 py-1 -mx-2 -my-1 hover:text-slate-600 focus:bg-slate-50 focus:outline-none transition-color"
-      >
-        <h1 className="inline">{detailName}</h1>
-        <div className="inline-flex items-center">
-          <img
-            src={linkIcon}
-            alt="Link icon"
-            className="block pl-3 w-10 group-hover:scale-110 group-focus:scale-110 transition-transform"
-          />
-        </div>
-      </a>
-      <p className="py-7">{purpose}</p>
-      <dl className="flex">
+      <div className="pb-10">
+        <a
+          href={url}
+          alt={detailName}
+          className="group px-2 py-1 -mx-2 -my-1 hover:text-slate-600 focus:bg-slate-50 focus:outline-none transition-color"
+        >
+          <h1 className="inline pb-0">{detailName}</h1>
+          <div className="inline-flex items-center">
+            <img
+              src={linkIcon}
+              alt="Link icon"
+              className="block pl-3 w-10 group-hover:scale-110 group-focus:scale-110 transition-transform"
+            />
+          </div>
+        </a>
+      </div>
+      <p className="">{purpose}</p>
+      <dl className="py-7 flex">
         {[type, stack].map((desc, index) => {
           let title;
           let content;
@@ -44,7 +46,7 @@ function ProjectIntro({ detailName, url, purpose, type, stack, introImg }) {
           );
         })}
       </dl>
-      <div className="py-7">
+      <div className="">
         <img
           src={introImg}
           alt="Introduce image"

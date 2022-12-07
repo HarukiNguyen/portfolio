@@ -34,7 +34,7 @@ function ProjectList({ projectsData }) {
   });
 
   return (
-    <ul className="flex justify-center flex-wrap pt-16">{projectItems}</ul>
+    <ul className="flex justify-center flex-wrap pt-10">{projectItems}</ul>
   );
 }
 

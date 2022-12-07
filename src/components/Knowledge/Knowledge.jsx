@@ -14,7 +14,7 @@ function Knowledge() {
       <h2>
         My knowledge <span> 📖</span>
       </h2>
-      <p className="py-6">
+      <p className="">
         Through my journey, I have gained a solid understanding of the Internet,
         computer, and web technologies. I also spent a lot of time applying
         these concepts to many scenarios and applications.
