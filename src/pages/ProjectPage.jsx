@@ -21,7 +21,7 @@ function ProjectPage() {
     purpose,
     goals,
     type,
-    tech,
+    stack,
     imgs,
     techAndExplain,
     lessons,
@@ -34,7 +34,7 @@ function ProjectPage() {
         detailName={detailName}
         purpose={purpose}
         type={type}
-        tech={tech}
+        stack={stack}
         introImg={introImg}
         url={url}
       />
