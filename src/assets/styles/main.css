@@ -126,11 +126,11 @@
     @apply pb-11;
   }
 
-  section > h1 {
+  section h1 {
     @apply heading leading-tight text-4xl;
   }
 
-  section > h2 {
+  section h2 {
     @apply pt-4 heading text-3xl;
   }
 }
