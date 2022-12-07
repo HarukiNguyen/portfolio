@@ -1,4 +1,4 @@
-function ProjectLink({ url, completed, linkIcon, name }) {
+function ProjectLink({ url, completed, linkIcon}) {
   const linkText = completed ? "view project" : "comming soon";
 
   return (
@@ -12,7 +12,7 @@ function ProjectLink({ url, completed, linkIcon, name }) {
         {linkText}
         <img
           src={linkIcon}
-          alt={name}
+          alt="Link icon"
           className="scale-0 absolute w-6 left-full pl-1 top-2/4 -translate-y-2/4 group-hover:scale-100 group-focus:scale-100 transition-transform origin-[left_center]"
         />
       </a>

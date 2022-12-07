@@ -12,7 +12,6 @@ function ProjectInfo({ name, iconUrl, description, url, completed }) {
       <ProjectLink
         url={url}
         linkIcon={linkIcon}
-        name={name}
         completed={completed}
       />
     </div>
