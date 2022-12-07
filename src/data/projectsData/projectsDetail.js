@@ -4,6 +4,7 @@ const projectsDetail = [
   {
     id: 1,
     detailName: "Web form Validator",
+    url: 'https://harukinguyen.github.io/web-form/',
     purpose: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris lorem arcu, molestie posuere risus sed, efficitur tincidunt risus. Etiam lorem nibh, efficitur id posuere eget, dignissim non sapien. Nunc in lorem eu ligula condimentum tempor. Nunc volutpat sagittis tristique. Cras.',
     goals: [
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris lorem arcu, molestie posuere risus sed, efficitur tincidunt risus. Etiam ', 'lorem nibh, efficitur id posuere eget, dignissim non sapien. Nunc in lorem eu ligula condimentum tempor. Nunc volutpat sagittis tristique. Cras.'
@@ -25,6 +26,7 @@ const projectsDetail = [
   {
     id: 2,
     detailName: "Be brave to express your love",
+    url: 'https://harukinguyen.github.io/express-your-love/',
     purpose: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris lorem arcu, molestie posuere risus sed, efficitur tincidunt risus. Etiam lorem nibh, efficitur id posuere eget, dignissim non sapien. Nunc in lorem eu ligula condimentum tempor. Nunc volutpat sagittis tristique. Cras.',
     goals: [
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris lorem arcu, molestie posuere risus sed, efficitur tincidunt risus. Etiam ', 'lorem nibh, efficitur id posuere eget, dignissim non sapien. Nunc in lorem eu ligula condimentum tempor. Nunc volutpat sagittis tristique. Cras.'

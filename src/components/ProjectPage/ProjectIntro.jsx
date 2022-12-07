@@ -1,7 +1,11 @@
-function ProjectIntro({ detailName, purpose, type, tech, introImg }) {
+function ProjectIntro({ detailName, url, purpose, type, tech, introImg }) {
   return (
     <section>
-      <h1>{detailName}</h1>
+      <h1>
+        <a href={url} alt={detailName}>
+          {detailName}
+        </a>
+      </h1>
       <p>{purpose}</p>
       <dl>
         <dt>Type</dt>

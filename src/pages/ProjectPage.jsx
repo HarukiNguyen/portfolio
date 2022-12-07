@@ -17,6 +17,7 @@ function ProjectPage() {
   const { projectDetail } = project;
   const {
     detailName,
+    url,
     purpose,
     goals,
     type,
@@ -35,6 +36,7 @@ function ProjectPage() {
         type={type}
         tech={tech}
         introImg={introImg}
+        url={url}
       />
       <ProjectGoals goals={goals} />
       <ProjectTechExplain techAndExplain={techAndExplain} />
