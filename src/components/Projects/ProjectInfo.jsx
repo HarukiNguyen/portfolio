@@ -1,7 +1,6 @@
-import linkIcon from "../../assets/icons/link.svg";
 import ProjectIcon from "./ProjectIcon";
-import ProjectName from "./ProjectName";
 import ProjectLink from "./ProjectLink";
+import ProjectName from "./ProjectName";
 
 function ProjectInfo({ name, iconUrl, description, url, completed }) {
   return (
@@ -9,11 +8,7 @@ function ProjectInfo({ name, iconUrl, description, url, completed }) {
       <ProjectIcon iconUrl={iconUrl} name={name} />
       <ProjectName name={name} />
       <p className="text-center pt-3">{description}</p>
-      <ProjectLink
-        url={url}
-        linkIcon={linkIcon}
-        completed={completed}
-      />
+      <ProjectLink url={url} completed={completed} />
     </div>
   );
 }
