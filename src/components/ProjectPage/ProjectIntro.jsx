@@ -2,7 +2,7 @@ import linkIcon from "../../assets/icons/link.svg";
 
 function ProjectIntro({ detailName, url, purpose, type, stack, introImg }) {
   return (
-    <section>
+    <section className="animate-fadeIn [animation-delay:0.75s] opacity-0">
       <div className="pb-10">
         <a
           href={url}
