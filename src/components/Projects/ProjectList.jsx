@@ -7,7 +7,7 @@ function ProjectList({ projectsData }) {
 
   useEffect(() => {
     visibleAni(projectsRef.current, "animate-fadeIn");
-  }, []);
+  }, [projectsData]);
 
   const projectItems = projectsData.map((project, index) => {
     const { name, iconUrl, description, completed, url, thumbnailUrl } =
