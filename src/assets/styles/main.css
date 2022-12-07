@@ -116,6 +116,11 @@
     font-style: italic;
     font-weight: 700;
   }
+
+  /* Element setup */
+  section {
+    @apply pb-11;
+  }
 }
 
 @layer utilities {
