@@ -15,7 +15,7 @@ function Footer() {
       {/* contact */}
       <section className="text-center" id="contact">
         <h2 className="heading text-3xl">Let's build the world with me</h2>
-        <p className="text-slate-700">
+        <p className="w-full max-w-[550px] text-slate-700 mx-auto">
           Just contact with me when you need a developer, have some questions,
           or just want to connect
         </p>
