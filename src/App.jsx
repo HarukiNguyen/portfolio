@@ -6,7 +6,7 @@ import ProjectPage from "./pages/ProjectPage";
 
 function App() {
   return (
-    <div className="container px-3 text-slate-900 font-body leading-relaxed">
+    <div className="container px-3 tablet:px-6 text-slate-900 font-body leading-relaxed">
       <Header />
       <main className="py-20">
         <Routes>
