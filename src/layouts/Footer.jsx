@@ -19,13 +19,15 @@ function Footer() {
           Just contact with me when you need a developer, have some questions,
           or just want to connect
         </p>
-        <a
-          href="mailto:nmd03pvt@gmail.com"
-          title="Email me"
-          className="py-6 font-bold underline px-1 rounded focus:hocus-state"
-        >
-          nmd03pvt@gmail.com
-        </a>
+        <div className="py-6">
+          <a
+            href="mailto:nmd03pvt@gmail.com"
+            title="Email me"
+            className="font-bold underline px-1 rounded focus:hocus-state"
+          >
+            nmd03pvt@gmail.com
+          </a>
+        </div>
       </section>
 
       {/* logo and social media */}
