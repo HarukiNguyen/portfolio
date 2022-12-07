@@ -1,5 +1,5 @@
 import { useParams } from "react-router-dom";
-import OtherProjects from "../components/ProjectPage/OtherProjects/";
+import OtherProjectsList from "../components/ProjectPage/OtherProjects/OtherProjects";
 import ProjectGoals from "../components/ProjectPage/ProjectGoals";
 import ProjectIntro from "../components/ProjectPage/ProjectIntro";
 import ProjectLessons from "../components/ProjectPage/ProjectLessons";
@@ -42,7 +42,7 @@ function ProjectPage() {
       <ProjectTechExplain techAndExplain={techAndExplain} />
       <ProjectPreview previewImg={previewImg} />
       <ProjectLessons lessons={lessons} />
-      <OtherProjects param={param} />
+      <OtherProjectsList param={param} />
     </>
   );
 }
