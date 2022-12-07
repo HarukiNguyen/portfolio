@@ -4,7 +4,9 @@ function ProjectGoals({ goals }) {
       <h2>Goals</h2>
       <ul>
         {goals.map((goal, index) => (
-          <li key={index}>{goal}</li>
+          <li key={index} className="pb-4">
+            <p>{goal}</p>
+          </li>
         ))}
       </ul>
     </section>
