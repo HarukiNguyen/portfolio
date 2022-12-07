@@ -11,7 +11,7 @@ function Footer() {
   }, []);
 
   return (
-    <footer className="py-14 px-3 bg-slate-200 opacity-0" ref={footerRef}>
+    <footer className="py-14 bg-slate-200 opacity-0" ref={footerRef}>
       {/* contact */}
       <section className="text-center" id="contact">
         <h2 className="heading text-3xl">Let's build the world with me</h2>
