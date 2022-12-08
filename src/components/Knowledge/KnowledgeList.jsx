@@ -11,7 +11,9 @@ function KnowledgeList() {
     </li>
   ));
 
-  return <ul className="py-6 flex flex-wrap">{knowledgeItems}</ul>;
+  return (
+    <ul className="max-w-[550px] py-6 flex flex-wrap">{knowledgeItems}</ul>
+  );
 }
 
 export default KnowledgeList;
