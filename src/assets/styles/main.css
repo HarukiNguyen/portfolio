@@ -123,7 +123,7 @@
   }
 
   section {
-    @apply pb-11;
+    @apply pb-11 tablet:pb-14 laptop:pb-20 desktop:pb-24;
   }
 
   section h1 {
