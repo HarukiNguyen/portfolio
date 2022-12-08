@@ -15,8 +15,8 @@ function ProjectIntro({ detailName, url, purpose, type, stack, introImg }) {
           </div>
         </a>
       </div>
-      <p className="">{purpose}</p>
-      <dl className="py-7 flex">
+      <p className="para-max-w">{purpose}</p>
+      <dl className="py-7 laptop:py-10 flex">
         {[type, stack].map((desc, index) => {
           let title;
           let content;
@@ -33,7 +33,7 @@ function ProjectIntro({ detailName, url, purpose, type, stack, introImg }) {
           }
 
           return (
-            <div key={title} className="pr-14">
+            <div key={title} className="pr-14 tablet:pr-28">
               <dt className="pb-2 font-bold">{title}</dt>
               <dd>
                 <ul className="list-disc">{content}</ul>
@@ -42,11 +42,11 @@ function ProjectIntro({ detailName, url, purpose, type, stack, introImg }) {
           );
         })}
       </dl>
-      <div className="">
+      <div className="laptop:flex laptop:justify-center">
         <img
           src={introImg}
           alt="Introduce image"
-          className="rounded-md shadow-lg"
+          className="rounded-md shadow-lg laptop:w-10/12"
         />
       </div>
     </section>
