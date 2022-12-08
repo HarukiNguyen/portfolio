@@ -12,7 +12,7 @@ function KnowledgeList() {
   ));
 
   return (
-    <ul className="max-w-[550px] py-6 flex flex-wrap">{knowledgeItems}</ul>
+    <ul className="para-max-w py-6 flex flex-wrap">{knowledgeItems}</ul>
   );
 }
 
