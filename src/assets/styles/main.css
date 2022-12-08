@@ -127,7 +127,7 @@
   }
 
   section h1 {
-    @apply pb-10 heading leading-tight text-4xl;
+    @apply pb-10 heading leading-tight text-4xl tablet:leading-snug;
   }
 
   section h2 {
