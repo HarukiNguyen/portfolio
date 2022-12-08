@@ -12,7 +12,7 @@ function ProjectTechExplain({ techAndExplain }) {
   }, []);
 
   return (
-    <section ref={sectionRef}>
+    <section ref={sectionRef} className="para-max-w ml-auto">
       <h2>Web stack and explanation</h2>
       <ul>
         {techAndExplain.map((explainPara, index) => (
