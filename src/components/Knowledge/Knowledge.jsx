@@ -10,7 +10,7 @@ function Knowledge() {
   }, []);
 
   return (
-    <section id="knowledge" ref={sectionRef} className="tablet:clear-left">
+    <section ref={sectionRef} className="tablet:clear-left">
       <h2>
         My knowledge <span> 📖</span>
       </h2>

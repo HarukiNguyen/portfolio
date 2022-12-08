@@ -11,7 +11,7 @@ function Projects() {
   }, []);
 
   return (
-    <section id="projects">
+    <section>
       <h2 ref={headingRef}>
         What I've been working on <span>💻</span>
       </h2>

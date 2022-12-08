@@ -11,10 +11,7 @@ function About() {
   });
 
   return (
-    <section
-      className="animate-fadeIn [animation-delay:0.75s] opacity-0 tablet:flow-root"
-      id="about"
-    >
+    <section className="animate-fadeIn [animation-delay:0.75s] opacity-0 tablet:flow-root">
       <div className="tablet:w-2/4 tablet:float-left laptop:pr-8">
         <h1>
           Hi, I'm Haruki Nguyen, I am a{" "}
