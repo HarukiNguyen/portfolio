@@ -16,7 +16,7 @@ function ProjectList({ projectsData }) {
     return (
       <li
         key={name}
-        className="pb-[175px] w-10/12 opacity-0"
+        className="pb-[175px] w-10/12 opacity-0 tablet:w-8/12 laptop:w-2/4 laptop:px-5 desktop:px-14"
         ref={(el) => (projectsRef.current[index] = el)}
       >
         <div className="relative">
@@ -34,7 +34,9 @@ function ProjectList({ projectsData }) {
   });
 
   return (
-    <ul className="flex justify-center flex-wrap pt-10">{projectItems}</ul>
+    <ul className="flex justify-center flex-wrap pt-10">
+      {projectItems}
+    </ul>
   );
 }
 
