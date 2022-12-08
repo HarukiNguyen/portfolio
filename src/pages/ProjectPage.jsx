@@ -3,7 +3,7 @@ import OtherProjectsList from "../components/ProjectPage/OtherProjects/OtherProj
 import ProjectGoals from "../components/ProjectPage/ProjectGoals";
 import ProjectIntro from "../components/ProjectPage/ProjectIntro";
 import ProjectLessons from "../components/ProjectPage/ProjectLessons";
-import ProjectPreview from "../components/ProjectPage/ProjectPreview";
+import ProjectPreview from "../components/ProjectPage/ProjectPreview/";
 import ProjectTechExplain from "../components/ProjectPage/ProjectTechExplain";
 import { projectsData } from "../data/projectsData";
 
