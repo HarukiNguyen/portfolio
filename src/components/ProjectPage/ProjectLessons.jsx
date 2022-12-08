@@ -13,7 +13,7 @@ function ProjectLessons({ lessons }) {
       <h2>Problems and lessons</h2>
       <ul>
         {lessons.map((lesson, index) => (
-          <li key={index} className="pb-5">
+          <li key={index} className="pb-5 para-max-w mx-auto">
             {lesson}
           </li>
         ))}
