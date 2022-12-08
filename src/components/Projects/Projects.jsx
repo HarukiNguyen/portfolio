@@ -15,7 +15,9 @@ function Projects() {
       <h2 ref={headingRef}>
         What I've been working on <span>💻</span>
       </h2>
-      <ProjectList projectsData={projectsData} />
+      <ul className="flex justify-center flex-wrap pt-10">
+        <ProjectList projectsData={projectsData} />
+      </ul>
     </section>
   );
 }

@@ -55,7 +55,11 @@ function OtherProjects({ param }) {
     getOtherProjects(prevId, nextId, currId, projectsData, setOtherProjects);
   }, [idList, maxId, minId, prevId, nextId]);
 
-  return <ProjectList projectsData={otherProjects} />;
+  return (
+    <ul className="flex justify-center tablet:justify-start flex-wrap pt-10">
+      <ProjectList projectsData={otherProjects} />
+    </ul>
+  );
 }
 
 export default OtherProjects;

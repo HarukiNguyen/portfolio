@@ -33,11 +33,7 @@ function ProjectList({ projectsData }) {
     );
   });
 
-  return (
-    <ul className="flex justify-center flex-wrap pt-10">
-      {projectItems}
-    </ul>
-  );
+  return <>{projectItems}</>;
 }
 
 export default ProjectList;
