@@ -58,7 +58,7 @@ module.exports = {
     screens: {
       'tablet': '768px',
       'laptop': '1024px',
-      'desktop': '1289px'
+      'desktop': '1280px'
     },
     container: {
       center: true
