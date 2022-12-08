@@ -13,7 +13,7 @@ function ProjectGoals({ goals }) {
       <h2>Goals</h2>
       <ul>
         {goals.map((goal, index) => (
-          <li key={index} className="pb-4">
+          <li key={index} className="pb-4 para-max-w">
             <p>{goal}</p>
           </li>
         ))}
