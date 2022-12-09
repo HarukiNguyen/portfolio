@@ -1,8 +1,8 @@
 import { useEffect, useRef } from "react";
-import visibleAni from "../../../ultilities/visibleAni";
-import OtherProjects from "./OtherProjectsList";
+import visibleAni from "../../ultilities/visibleAni";
+import OtherProjectsList from "./OtherProjectsList";
 
-function OtherProjectsList({ param }) {
+function OtherProjects({ param }) {
   const sectionRef = useRef(null);
 
   useEffect(() => {
@@ -12,9 +12,9 @@ function OtherProjectsList({ param }) {
   return (
     <section ref={sectionRef}>
       <h2>Other projects</h2>
-      <OtherProjects param={param} />
+      <OtherProjectsList param={param} />
     </section>
   );
 }
 
-export default OtherProjectsList;
+export default OtherProjects;

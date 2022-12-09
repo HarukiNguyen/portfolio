@@ -1,10 +1,10 @@
 import { useParams } from "react-router-dom";
-import OtherProjectsList from "../components/ProjectPage/OtherProjects/OtherProjects";
-import ProjectGoals from "../components/ProjectPage/ProjectGoals";
-import ProjectIntro from "../components/ProjectPage/ProjectIntro/";
-import ProjectLessons from "../components/ProjectPage/ProjectLessons";
-import ProjectPreview from "../components/ProjectPage/ProjectPreview/";
-import ProjectTechExplain from "../components/ProjectPage/ProjectTechExplain";
+import OtherProjects from "../components/OtherProjects";
+import ProjectGoals from "../components/ProjectGoals";
+import ProjectIntro from "../components/ProjectIntro/";
+import ProjectLessons from "../components/ProjectLessons";
+import ProjectPreview from "../components/ProjectPreview/";
+import ProjectTechExplain from "../components/ProjectTechExplain";
 import { projectsData } from "../data/projectsData";
 
 function ProjectPage() {
@@ -42,7 +42,7 @@ function ProjectPage() {
       <ProjectTechExplain techAndExplain={techAndExplain} />
       <ProjectPreview previewImg={previewImg} />
       <ProjectLessons lessons={lessons} />
-      <OtherProjectsList param={param} />
+      <OtherProjects param={param} />
     </>
   );
 }

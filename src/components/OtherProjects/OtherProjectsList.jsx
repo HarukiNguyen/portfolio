@@ -1,12 +1,12 @@
 import { useEffect, useState } from "react";
-import { projectsData } from "../../../data/projectsData";
-import ProjectList from "../../Projects/ProjectList";
+import { projectsData } from "../../data/projectsData";
+import ProjectList from "../Projects/ProjectList";
 import getCurrId from "./getCurrId";
 import getIdList from "./getIdList";
 import getOtherProjects from "./getOtherProjects";
 import getPrevNext from "./getPrevNext";
 
-function OtherProjects({ param }) {
+function OtherProjectsList({ param }) {
   const [idList, setIdList] = useState([]);
   const [currId, setCurrId] = useState(null);
 
@@ -62,4 +62,4 @@ function OtherProjects({ param }) {
   );
 }
 
-export default OtherProjects;
+export default OtherProjectsList;

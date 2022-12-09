@@ -1,4 +1,4 @@
-import linkIcon from "../../../assets/icons/link.svg";
+import linkIcon from "../../assets/icons/link.svg";
 
 function ProjectDetailName({ url, detailName }) {
   return (

@@ -1,5 +1,5 @@
 import { useEffect, useRef } from "react";
-import visibleAni from "../../ultilities/visibleAni";
+import visibleAni from "../ultilities/visibleAni";
 
 function ProjectTechExplain({ techAndExplain }) {
   const explanativeLength = techAndExplain.length;

@@ -1,5 +1,5 @@
 import { useRef, useEffect } from "react";
-import visibleAni from "../../ultilities/visibleAni";
+import visibleAni from "../ultilities/visibleAni";
 
 function ProjectGoals({ goals }) {
   const sectionRef = useRef(null);

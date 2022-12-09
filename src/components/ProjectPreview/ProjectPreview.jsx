@@ -1,5 +1,5 @@
 import { useEffect, useRef } from "react";
-import visibleAni from "../../../ultilities/visibleAni";
+import visibleAni from "../../ultilities/visibleAni";
 import getCol from "./getCols";
 import getImgItems from "./getImgItems";
 import PreviewImageList from "./PreviewImageList";
