@@ -147,6 +147,11 @@
   .para-max-w {
     @apply max-w-[550px];
   }
+
+  .visually-hidden:not(:focus):not(:active) {
+    @apply sr-only;
+    clip-path: inset(50%);
+  }
 }
 
 @layer components {
