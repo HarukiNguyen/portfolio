@@ -12,6 +12,7 @@ function ProjectPreview({ previewImg }) {
   }, []);
 
   const cols = getCol(getImgItems, previewImg, 2, 2);
+
   return (
     <section ref={sectionRef}>
       <h2>Preview images</h2>
