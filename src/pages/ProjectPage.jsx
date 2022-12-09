@@ -1,7 +1,7 @@
 import { useParams } from "react-router-dom";
 import OtherProjectsList from "../components/ProjectPage/OtherProjects/OtherProjects";
 import ProjectGoals from "../components/ProjectPage/ProjectGoals";
-import ProjectIntro from "../components/ProjectPage/ProjectIntro";
+import ProjectIntro from "../components/ProjectPage/ProjectIntro/";
 import ProjectLessons from "../components/ProjectPage/ProjectLessons";
 import ProjectPreview from "../components/ProjectPage/ProjectPreview/";
 import ProjectTechExplain from "../components/ProjectPage/ProjectTechExplain";
