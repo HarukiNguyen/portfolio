@@ -6,7 +6,7 @@ function ProjectDetailName({ url, detailName }) {
       <a
         href={url}
         alt={detailName}
-        className="group px-2 py-1 -mx-2 -my-1 hover:text-slate-600 focus:bg-slate-50 focus:outline-none transition-colors"
+        className="group rounded px-2 py-1 -mx-2 -my-1 hover:text-slate-600 focus:bg-slate-200 focus:outline-none transition-colors"
       >
         <h1 className="inline pb-0">{detailName}</h1>
         <div className="inline-flex items-center">
