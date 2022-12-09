@@ -15,7 +15,7 @@ function ProjectPreview({ previewImg }) {
 
   return (
     <section ref={sectionRef}>
-      <h2>Preview images</h2>
+      <h2 className="visually-hidden">Preview images</h2>
       <PreviewImageList imageItems={cols} />
     </section>
   );
