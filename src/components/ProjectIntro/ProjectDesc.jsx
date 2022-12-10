@@ -20,8 +20,8 @@ function ProjectDesc({ descList }) {
 
     return (
       <div key={title} className="pr-14 tablet:pr-28">
-        <dt className="pb-2 font-bold">{title}</dt>
-        <dd>
+        <dt className="pb-2 font-bold ">{title}</dt>
+        <dd className="pt-4 border-t-2">
           <ul className="list-disc">{content}</ul>
         </dd>
       </div>
