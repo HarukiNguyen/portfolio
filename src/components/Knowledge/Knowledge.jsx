@@ -11,9 +11,7 @@ function Knowledge() {
 
   return (
     <section ref={sectionRef} className="tablet:clear-left">
-      <h2>
-        My knowledge <span> 📖</span>
-      </h2>
+      <h2>My knowledge 📖</h2>
       <p className="para-max-w">
         Through my journey, I have gained a solid understanding of the Internet,
         computer, and web technologies. I also spent a lot of time applying
