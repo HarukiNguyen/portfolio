@@ -156,6 +156,10 @@
     @apply sr-only;
     clip-path: inset(50%);
   }
+
+  .grid-container {
+    @apply min-[660px]:max-w-[630px] tablet:max-w-[720px] laptop:max-w-[960px] desktop:max-w-[1200px] mx-auto px-6;
+  }
 }
 
 @layer components {
