@@ -9,7 +9,7 @@ function App() {
     <div className=" tablet:text-lg text-slate-900 font-body leading-relaxed">
       <Header />
       <div className="container">
-        <main className="py-10 tablet:py-12 laptop:py-20 desktop:py-28 px-3 tablet:px-6 laptop:px-12 desktop:px-28">
+        <main className="py-20 tablet:py-24 laptop:py-28 desktop:py-36 px-5 tablet:px-7 laptop:px-14 desktop:px-32">
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/:project" element={<ProjectPage />} />
