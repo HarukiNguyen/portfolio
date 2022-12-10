@@ -4,22 +4,25 @@ import Avatar from "./Avatar";
 function About() {
   const aboutTexts = aboutData.map((about, id) => {
     return (
-      <li key={id} className="pb-5 paragraph-dot pd-lt">
+      <li key={id} className="pb-5 paragraph-dot pd-lt para-max-w">
         <p>{about}</p>
       </li>
     );
   });
 
   return (
-    <section className="animate-fadeIn [animation-delay:0.75s] opacity-0 tablet:flow-root">
-      <div className="tablet:w-2/4 tablet:float-left laptop:pr-8">
+    <section className="animate-fadeIn [animation-delay:0.75s] opacity-0">
+      <div className="hidden tablet:block py-10 tablet:py-8 laptop:py-5 tablet:float-right tablet:w-2/4">
+        <Avatar />
+      </div>
+      <div>
         <h1>
           Hi, I'm Haruki Nguyen, I am a{" "}
           <span className="capitalize text-underline">web developer</span>
         </h1>
         <ul className="px-2">{aboutTexts}</ul>
       </div>
-      <div className="py-10 tablet:py-8 tablet:float-right tablet:w-2/4 laptop:py-5">
+      <div className="tablet:hidden py-10 tablet:py-8 laptop:py-5">
         <Avatar />
       </div>
     </section>
