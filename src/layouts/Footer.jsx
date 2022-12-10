@@ -14,8 +14,8 @@ function Footer() {
     <footer className="py-14 px-3 bg-slate-200 opacity-0" ref={footerRef}>
       {/* contact */}
       <section className="text-center" id="contact">
-        <h2 className="heading text-3xl">Let's build the world with me</h2>
-        <p className="para-max-w text-slate-700 mx-auto">
+        <h2 className="heading text-2xl tablet:text-3xl">Let's build the world with me</h2>
+        <p className="para-max-w text-slate-800 mx-auto">
           Just contact with me when you need a developer, have some questions,
           or just want to connect
         </p>
