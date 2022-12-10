@@ -11,7 +11,7 @@ function OtherProjects({ param }) {
 
   return (
     <section ref={sectionRef}>
-      <h2>Other projects</h2>
+      <h2>Other projects 💻</h2>
       <OtherProjectsList param={param} />
     </section>
   );
