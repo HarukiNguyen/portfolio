@@ -12,7 +12,7 @@ function About() {
 
   return (
     <section className="animate-fadeIn [animation-delay:0.75s] opacity-0">
-      <div className="hidden tablet:block py-10 tablet:py-8 laptop:py-5 tablet:float-right tablet:w-2/4">
+      <div className="hidden tablet:block py-10 tablet:py-8 laptop:py-5 tablet:float-right tablet:w-2/4 laptop:w-5/12">
         <Avatar />
       </div>
       <div>
