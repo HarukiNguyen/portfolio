@@ -5,7 +5,7 @@ function ProjectLink({ url, completed }) {
   const linkText = completed ? "view project" : "comming soon";
 
   return (
-    <div className="text-center pt-3">
+    <div className="text-center">
       <Link
         to={`${url}`}
         tabIndex={completed ? 0 : -1}
