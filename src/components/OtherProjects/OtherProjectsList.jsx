@@ -56,7 +56,7 @@ function OtherProjectsList({ param }) {
   }, [idList, maxId, minId, prevId, nextId]);
 
   return (
-    <ul className="flex justify-center tablet:justify-start flex-wrap pt-10">
+    <ul className="pt-10 laptop:grid laptop:grid-cols-12 laptop:gap-x-10 desktop:gap-x-14">
       <ProjectList projectsData={otherProjects} />
     </ul>
   );
