@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import linkIcon from "../../assets/icons/link.svg";
+import LinkIcon from "../LinkIcon";
 
 function ProjectLink({ url, completed }) {
   const linkText = completed ? "view project" : "comming soon";
@@ -14,11 +14,7 @@ function ProjectLink({ url, completed }) {
         } group px-2 py-1 rounded relative underline uppercase tracking-wider font-bold hover:text-indigo-400 focus:hocus-state`}
       >
         {linkText}
-        <img
-          src={linkIcon}
-          alt="Link icon"
-          className="scale-0 absolute w-6 left-full pl-1 top-2/4 -translate-y-2/4 group-hover:scale-100 group-focus:scale-100 transition-transform origin-[left_center]"
-        />
+        <LinkIcon className="scale-0 absolute w-7 left-full pl-1 top-2/4 -translate-y-2/4 group-hover:scale-100 transition-transform origin-[left_center]" />
       </Link>
     </div>
   );
