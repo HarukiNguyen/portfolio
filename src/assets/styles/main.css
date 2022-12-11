@@ -160,10 +160,6 @@
     @apply sr-only;
     clip-path: inset(50%);
   }
-
-  .layout-container {
-    @apply min-[660px]:max-w-[630px] tablet:max-w-[720px] laptop:max-w-[960px] desktop:max-w-[1200px] mx-auto px-6;
-  }
 }
 
 @layer components {
@@ -181,5 +177,9 @@
 
   .pd-lt {
     @apply indent-5 before:left-0 before:top-[0.5em];
+  }
+
+  .layout-container {
+    @apply min-[660px]:max-w-[630px] tablet:max-w-[720px] laptop:max-w-[960px] desktop:max-w-[1200px] mx-auto px-6;
   }
 }
