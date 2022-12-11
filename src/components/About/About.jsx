@@ -18,7 +18,7 @@ function About() {
       <div>
         <h1>
           Hi, I'm Haruki Nguyen, I am a{" "}
-          <span className="capitalize text-underline">web developer</span>
+          <span className="capitalize text-indigo-600">web developer</span>
         </h1>
         <ul className="px-2">{aboutTexts}</ul>
       </div>

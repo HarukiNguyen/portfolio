@@ -137,11 +137,15 @@
 
 @layer utilities {
   .hocus-state {
-    @apply bg-slate-100 outline-none;
+    @apply bg-indigo-500 text-white outline-none;
+  }
+
+  .hocus-state > svg {
+    @apply fill-white transition-colors;
   }
 
   .text-underline {
-    @apply relative before:absolute before:-z-10 before:w-full before:h-1/5 before:left-0 before:top-3/4 before:bg-slate-300 inline-block;
+    @apply relative before:absolute before:-z-10 before:w-full before:h-1/5 before:left-0 before:top-3/4 before:bg-indigo-300 inline-block;
   }
 
   .para-max-w {
@@ -168,7 +172,7 @@
   }
 
   .paragraph-dot {
-    @apply relative before:absolute before:w-[6px] before:h-[6px] before:rounded-full before:bg-slate-400;
+    @apply relative before:absolute before:w-[6px] before:h-[6px] before:rounded-full before:bg-indigo-600;
   }
 
   .pd-lc {

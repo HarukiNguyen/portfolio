@@ -1,5 +1,5 @@
-import linkIcon from "../../assets/icons/link.svg";
 import { Link } from "react-router-dom";
+import linkIcon from "../../assets/icons/link.svg";
 
 function ProjectLink({ url, completed }) {
   const linkText = completed ? "view project" : "comming soon";
@@ -11,7 +11,7 @@ function ProjectLink({ url, completed }) {
         tabIndex={completed ? 0 : -1}
         className={`${
           !completed ? "disable-link text-slate-400 no-underline" : ""
-        } group px-2 py-1 rounded relative underline uppercase tracking-wider font-bold hover:text-slate-600 focus:bg-slate-200 focus:outline-none `}
+        } group px-2 py-1 rounded relative underline uppercase tracking-wider font-bold hover:text-indigo-400 focus:hocus-state`}
       >
         {linkText}
         <img
