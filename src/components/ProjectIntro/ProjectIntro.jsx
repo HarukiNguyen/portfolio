@@ -4,7 +4,7 @@ import ProjectDetailName from "./ProjectDetailName";
 function ProjectIntro({ detailName, url, purpose, type, stack, introImg }) {
   return (
     <section className="animate-fadeIn [animation-delay:0.75s] opacity-0 tablet:grid tablet:grid-cols-12">
-      <div className="tablet:col-span-10">
+      <div className="tablet:col-span-10 laptop:col-span-7">
         <ProjectDetailName url={url} detailName={detailName} />
 
         {/* purpose, intro paragraph */}
