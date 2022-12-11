@@ -6,7 +6,7 @@ import getIdList from "./getIdList";
 import getOtherProjects from "./getOtherProjects";
 import getPrevNext from "./getPrevNext";
 
-function OtherProjectsList({ param }) {
+function OtherProjectsList({ setOtherProjectsLength, param }) {
   const [idList, setIdList] = useState([]);
   const [currId, setCurrId] = useState(null);
 
@@ -17,8 +17,7 @@ function OtherProjectsList({ param }) {
   const [minId, setMinId] = useState(null);
 
   const [otherProjects, setOtherProjects] = useState([]);
-
-  // handle get id list
+  // handle get id list and other projects length
   useEffect(() => {
     getIdList(projectsData, setIdList);
   }, []);
@@ -55,8 +54,19 @@ function OtherProjectsList({ param }) {
     getOtherProjects(prevId, nextId, currId, projectsData, setOtherProjects);
   }, [idList, maxId, minId, prevId, nextId]);
 
+  useEffect(() => {
+    if (otherProjects) {
+      setOtherProjectsLength(otherProjects.length);
+    }
+  }, [otherProjects]);
+
+  const listClassNames =
+    otherProjects.length > 1
+      ? "laptop:grid laptop:grid-cols-12 laptop:gap-x-10 desktop:gap-x-14"
+      : "laptop:px-[25%]";
+
   return (
-    <ul className="pt-10 laptop:grid laptop:grid-cols-12 laptop:gap-x-10 desktop:gap-x-14">
+    <ul className={`pt-10 ${listClassNames}`}>
       <ProjectList projectsData={otherProjects} />
     </ul>
   );
