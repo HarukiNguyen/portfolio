@@ -23,7 +23,7 @@ function Footer() {
           <a
             href="mailto:nmd03pvt@gmail.com"
             title="Email me"
-            className="font-bold underline px-1 rounded focus:hocus-state"
+            className="font-bold hover:underline px-2 py-1 rounded focus:hocus-state"
           >
             nmd03pvt@gmail.com
           </a>
