@@ -12,7 +12,9 @@ function Projects() {
 
   return (
     <section>
-      <h2 ref={headingRef}>What I've been working on 💻</h2>
+      <h2 ref={headingRef} className="text-center">
+        What I've been working on 💻
+      </h2>
       <ul className="pt-10 laptop:grid laptop:grid-cols-12 laptop:gap-x-10 desktop:gap-x-14">
         <ProjectList projectsData={projectsData} />
       </ul>
