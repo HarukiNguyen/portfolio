@@ -1,3 +1,5 @@
+import arrowIcon from "../../assets/icons/arrow.svg";
+
 function ProjectDesc({ descList }) {
   const descItems = descList.map((desc, index) => {
     // desc title and content
@@ -12,7 +14,10 @@ function ProjectDesc({ descList }) {
       // if desc is stack then...
       title = "Stack";
       content = desc.map((techItem) => (
-        <li key={techItem} className="py-1">
+        <li key={techItem} className="py-2 flex items-center">
+          <div className="pr-4">
+            <img src={arrowIcon} alt="Arrow icon" className="w-6" />
+          </div>
           {techItem}
         </li>
       ));
@@ -22,7 +27,7 @@ function ProjectDesc({ descList }) {
       <div key={title} className="pr-14 tablet:pr-28">
         <dt className="pb-2 font-bold ">{title}</dt>
         <dd className="pt-4 border-t-2 border-indigo-300">
-          <ul className="list-disc">{content}</ul>
+          <ul className="">{content}</ul>
         </dd>
       </div>
     );
