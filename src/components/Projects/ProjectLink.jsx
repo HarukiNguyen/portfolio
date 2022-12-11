@@ -11,7 +11,7 @@ function ProjectLink({ url, completed }) {
         tabIndex={completed ? 0 : -1}
         className={`${
           !completed ? "disable-link text-slate-400 no-underline" : ""
-        } group px-2 py-1 rounded relative underline uppercase font-bold hover:text-slate-600 focus:bg-slate-200 focus:outline-none `}
+        } group px-2 py-1 rounded relative underline uppercase tracking-wider font-bold hover:text-slate-600 focus:bg-slate-200 focus:outline-none `}
       >
         {linkText}
         <img
