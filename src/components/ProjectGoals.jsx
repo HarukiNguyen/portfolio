@@ -10,7 +10,7 @@ function ProjectGoals({ goals }) {
 
   return (
     <section ref={sectionRef}>
-      <h2>Goals 🚩</h2>
+      <h2 className="accent-border-l">Goals 🚩</h2>
       <ul>
         {goals.map((goal, index) => (
           <li key={index} className="pb-4 para-max-w">

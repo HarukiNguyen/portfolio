@@ -10,7 +10,7 @@ function ProjectLessons({ lessons }) {
 
   return (
     <section className="text-center" ref={sectionRef}>
-      <h2>Problems and lessons 📚</h2>
+      <h2 className="accent-border-b">Problems and lessons 📚</h2>
       <ul>
         {lessons.map((lesson, index) => (
           <li key={index} className="pb-5 para-max-w mx-auto">

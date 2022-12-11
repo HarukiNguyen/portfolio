@@ -160,6 +160,22 @@
     @apply sr-only;
     clip-path: inset(50%);
   }
+
+  .accent-border-l {
+    @apply relative pl-5 before:absolute before:border-l-4 before:border-indigo-600 before:h-full before:left-0 before:top-0 before:rounded;
+  }
+
+  section h2.accent-border-l {
+    @apply pb-0 mb-6;
+  }
+
+  .accent-border-b {
+    @apply relative before:absolute before:h-1 before:bg-indigo-600 before:w-[15%] before:left-2/4 before:-translate-x-2/4 before:bottom-0 before:rounded;
+  }
+
+  section h2.accent-border-b {
+    @apply mb-6;
+  }
 }
 
 @layer components {
