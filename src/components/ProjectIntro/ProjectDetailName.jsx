@@ -11,7 +11,7 @@ function ProjectDetailName({ url, detailName }) {
         <h1 className="inline px-2 py-1 -mx-2 -my-1 group-focus:hocus-state rounded">
           {detailName}
         </h1>
-        <div className="pl-3 inline-block align-baseline">
+        <div className="pl-3 inline-block align-baseline group-hover:scale-110 transition-transform">
           <LinkIcon className="h-7 w-7" />
         </div>
       </a>
