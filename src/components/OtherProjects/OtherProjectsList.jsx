@@ -6,7 +6,7 @@ import getIdList from "./getIdList";
 import getOtherProjects from "./getOtherProjects";
 import getPrevNext from "./getPrevNext";
 
-function OtherProjectsList({ setOtherProjectsLength, param }) {
+function OtherProjectsList({ param }) {
   const [idList, setIdList] = useState([]);
   const [currId, setCurrId] = useState(null);
 
@@ -53,12 +53,6 @@ function OtherProjectsList({ setOtherProjectsLength, param }) {
     // handle show current other projects
     getOtherProjects(prevId, nextId, currId, projectsData, setOtherProjects);
   }, [idList, maxId, minId, prevId, nextId]);
-
-  useEffect(() => {
-    if (otherProjects) {
-      setOtherProjectsLength(otherProjects.length);
-    }
-  }, [otherProjects]);
 
   const listClassNames =
     otherProjects.length > 1
