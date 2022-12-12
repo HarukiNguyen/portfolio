@@ -16,7 +16,7 @@ function ProjectList({ projectsData }) {
     return (
       <li
         key={index}
-        className="pb-[240px] mx-auto opacity-0 w-10/12 tablet:w-8/12 laptop:w-auto laptop:col-span-6 desktop:px-10"
+        className="pb-[240px] max-[350px]:w-full mx-auto opacity-0 w-10/12 tablet:w-8/12 laptop:w-auto laptop:col-span-6 desktop:px-10"
         ref={(el) => (projectsRef.current[index] = el)}
       >
         <div className="relative">
