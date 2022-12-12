@@ -8,7 +8,6 @@ projectsOverview.forEach((projectOverview) => {
   projectsDetail.forEach((projectDetail) => {
 
     if (projectOverview.id === projectDetail.id) {
-      delete projectDetail.id;
       combineData = { ...combineData, projectDetail }
     }
   })
