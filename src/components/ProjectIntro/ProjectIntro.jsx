@@ -4,11 +4,11 @@ import ProjectDetailName from './ProjectDetailName';
 function ProjectIntro({ detailName, url, purpose, type, stack, introImg }) {
   return (
     <section className="animate-fadeIn opacity-0 [animation-delay:0.75s] tablet:grid tablet:grid-cols-12">
-      <div className="tablet:col-span-10 laptop:col-span-7">
+      <div className="tablet:col-span-10 laptop:col-span-9">
         <ProjectDetailName url={url} detailName={detailName} />
 
         {/* purpose, intro paragraph */}
-        <p className="para-max-w">{purpose}</p>
+        <p className="">{purpose}</p>
 
         <ProjectDesc descList={[type, stack]} />
       </div>
