@@ -8,7 +8,7 @@ export default function visibleAni(els, animation) {
   if (Array.isArray(els)) {
     const observer = new IntersectionObserver((entries) => {
       entries.forEach((entry) => {
-        addAni(entry)
+        addAni(entry);
       });
     });
 
@@ -20,8 +20,8 @@ export default function visibleAni(els, animation) {
       const entry = entries[0];
 
       addAni(entry);
-    })
+    });
 
-    observer.observe(els)
+    observer.observe(els);
   }
 }

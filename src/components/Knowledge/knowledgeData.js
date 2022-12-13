@@ -1,9 +1,9 @@
 const knowledgeData = [
-  "HTML & CSS",
-  "Javascript",
-  "TailwindCSS",
-  "React",
-  "Git & GitHub",
+  'HTML & CSS',
+  'Javascript',
+  'TailwindCSS',
+  'React',
+  'Git & GitHub',
 ];
 
-export { knowledgeData }
+export { knowledgeData };

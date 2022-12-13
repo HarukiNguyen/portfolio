@@ -1,6 +1,6 @@
-import About from "../components/About";
-import Knowledge from "../components/Knowledge";
-import Projects from "../components/Projects/Projects";
+import About from '../components/About';
+import Knowledge from '../components/Knowledge';
+import Projects from '../components/Projects/Projects';
 
 function Content() {
   return (

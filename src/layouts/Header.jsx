@@ -1,15 +1,15 @@
-import Logo from "../components/Logo";
-import SocialMedias from "../components/SocialMedias";
+import Logo from '../components/Logo';
+import SocialMedias from '../components/SocialMedias';
 
 function Header() {
   return (
-    <header className="animate-fadeIn opacity-0 layout-container py-3 tablet:py-5 flex flex-wrap justify-between tablet:justify-start">
+    <header className="layout-container flex animate-fadeIn flex-wrap justify-between py-3 opacity-0 tablet:justify-start tablet:py-5">
       <div className="flex items-center max-[339px]:pb-3 tablet:pr-10">
         <Logo />
       </div>
-      <div className="tablet:pl-7 relative">
-        <span className="min-[340px]:hidden absolute left-[6px] top-2/4 -translate-y-2/4 w-[6px] h-[6px] bg-indigo-600 rounded-full"></span>
-        <span className="hidden tablet:block absolute w-[6px] h-[6px] bg-indigo-600 left-0 top-2/4 -translate-y-2/4 rounded-full"></span>
+      <div className="relative tablet:pl-7">
+        <span className="absolute left-[6px] top-2/4 h-[6px] w-[6px] -translate-y-2/4 rounded-full bg-indigo-600 min-[340px]:hidden"></span>
+        <span className="absolute left-0 top-2/4 hidden h-[6px] w-[6px] -translate-y-2/4 rounded-full bg-indigo-600 tablet:block"></span>
         <div className="max-[339px]:pl-6">
           <SocialMedias />
         </div>

@@ -1,12 +1,12 @@
-import { useEffect, useRef } from "react";
-import visibleAni from "../../ultilities/visibleAni";
-import ProjectInfo from "./ProjectInfo";
+import { useEffect, useRef } from 'react';
+import visibleAni from '../../ultilities/visibleAni';
+import ProjectInfo from './ProjectInfo';
 
 function ProjectList({ projectsData }) {
   const projectsRef = useRef([]);
 
   useEffect(() => {
-    visibleAni(projectsRef.current, "animate-fadeIn");
+    visibleAni(projectsRef.current, 'animate-fadeIn');
   }, [projectsData]);
 
   const projectItems = projectsData.map((project, index) => {
@@ -16,7 +16,7 @@ function ProjectList({ projectsData }) {
     return (
       <li
         key={index}
-        className="pb-[240px] max-[350px]:w-full mx-auto opacity-0 w-10/12 tablet:w-8/12 laptop:w-auto laptop:col-span-6 desktop:px-10"
+        className="mx-auto w-10/12 pb-[240px] opacity-0 max-[350px]:w-full tablet:w-8/12 laptop:col-span-6 laptop:w-auto desktop:px-10"
         ref={(el) => (projectsRef.current[index] = el)}
       >
         <div className="relative">

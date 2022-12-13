@@ -1,16 +1,16 @@
-import { useEffect, useRef } from "react";
-import visibleAni from "../ultilities/visibleAni";
+import { useEffect, useRef } from 'react';
+import visibleAni from '../ultilities/visibleAni';
 
 function ProjectPreview({ previewImg }) {
   const sectionRef = useRef(null);
 
   useEffect(() => {
-    visibleAni(sectionRef.current, "animate-fadeIn");
+    visibleAni(sectionRef.current, 'animate-fadeIn');
   }, []);
 
   const imgs = previewImg.map((img, index) => {
     return (
-      <li key={index} className="pb-14 px-10 tablet:px-0">
+      <li key={index} className="px-10 pb-14 tablet:px-0">
         <img
           src={img}
           alt="Preview image"

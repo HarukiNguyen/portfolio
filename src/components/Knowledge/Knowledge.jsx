@@ -1,13 +1,13 @@
-import React, { useEffect, useRef } from "react";
-import visibleAni from "../../ultilities/visibleAni";
-import KnowledgeList from "./KnowledgeList";
-import worldMap from "../../assets/images/world-map.svg";
+import React, { useEffect, useRef } from 'react';
+import visibleAni from '../../ultilities/visibleAni';
+import KnowledgeList from './KnowledgeList';
+import worldMap from '../../assets/images/world-map.svg';
 
 function Knowledge() {
   const sectionRef = useRef(null);
 
   useEffect(() => {
-    visibleAni(sectionRef.current, "animate-fadeIn");
+    visibleAni(sectionRef.current, 'animate-fadeIn');
   }, []);
 
   return (
@@ -24,7 +24,7 @@ function Knowledge() {
         </p>
         <KnowledgeList />
       </div>
-      <div className="hidden laptop:block laptop:col-span-5 laptop:col-start-8">
+      <div className="hidden laptop:col-span-5 laptop:col-start-8 laptop:block">
         <img src={worldMap} alt="World map" />
       </div>
     </section>

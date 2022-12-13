@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { Link } from 'react-router-dom';
 
 function Logo() {
   return (
@@ -6,7 +6,7 @@ function Logo() {
       <Link
         to="/"
         alt="logo"
-        className="transition-colors px-2 py-1 rounded focus:hocus-state cursor-pointer group"
+        className="focus:hocus-state group cursor-pointer rounded px-2 py-1 transition-colors"
       >
         <svg
           version="1.1"

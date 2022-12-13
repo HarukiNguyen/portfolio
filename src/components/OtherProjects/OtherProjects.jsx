@@ -1,12 +1,12 @@
-import { useEffect, useRef } from "react";
-import visibleAni from "../../ultilities/visibleAni";
-import OtherProjectsList from "./OtherProjectsList";
+import { useEffect, useRef } from 'react';
+import visibleAni from '../../ultilities/visibleAni';
+import OtherProjectsList from './OtherProjectsList';
 
 function OtherProjects({ param }) {
   const sectionRef = useRef(null);
 
   useEffect(() => {
-    visibleAni(sectionRef.current, "animate-fadeIn");
+    visibleAni(sectionRef.current, 'animate-fadeIn');
   }, []);
 
   return (

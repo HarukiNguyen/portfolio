@@ -1,1 +1,1 @@
-export { default } from './Knowledge'
+export { default } from './Knowledge';

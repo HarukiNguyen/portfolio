@@ -1,13 +1,13 @@
-import { useEffect, useRef } from "react";
-import { projectsData } from "../../data/projectsData";
-import visibleAni from "../../ultilities/visibleAni";
-import ProjectList from "./ProjectList";
+import { useEffect, useRef } from 'react';
+import { projectsData } from '../../data/projectsData';
+import visibleAni from '../../ultilities/visibleAni';
+import ProjectList from './ProjectList';
 
 function Projects() {
   const headingRef = useRef(null);
 
   useEffect(() => {
-    visibleAni(headingRef.current, "animate-fadeIn");
+    visibleAni(headingRef.current, 'animate-fadeIn');
   }, []);
 
   return (

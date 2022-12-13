@@ -5,114 +5,114 @@
 @layer base {
   /* Open Sans */
   @font-face {
-    font-family: "Open Sans";
-    src: url("../fonts/Open_Sans/OpenSans-Variable.ttf") format("truetype");
+    font-family: 'Open Sans';
+    src: url('../fonts/Open_Sans/OpenSans-Variable.ttf') format('truetype');
     font-weight: 400;
   }
 
   @font-face {
-    font-family: "Open Sans";
-    src: url("../fonts/Open_Sans/OpenSans-Variable.ttf") format("truetype");
+    font-family: 'Open Sans';
+    src: url('../fonts/Open_Sans/OpenSans-Variable.ttf') format('truetype');
     font-weight: 700;
   }
 
   @font-face {
-    font-family: "Open Sans";
-    src: url("../fonts/Open_Sans/OpenSans-Italic-Variable.ttf")
-      format("truetype");
+    font-family: 'Open Sans';
+    src: url('../fonts/Open_Sans/OpenSans-Italic-Variable.ttf')
+      format('truetype');
     font-style: italic;
     font-weight: 400;
   }
 
   @font-face {
-    font-family: "Open Sans";
-    src: url("../fonts/Open_Sans/OpenSans-Italic-Variable.ttf")
-      format("truetype");
+    font-family: 'Open Sans';
+    src: url('../fonts/Open_Sans/OpenSans-Italic-Variable.ttf')
+      format('truetype');
     font-style: italic;
     font-weight: 700;
   }
 
   /* Noto Sans */
   @font-face {
-    font-family: "Noto Sans";
-    src: url("../fonts/Noto_Sans/NotoSans-Regular") format("truetype");
+    font-family: 'Noto Sans';
+    src: url('../fonts/Noto_Sans/NotoSans-Regular') format('truetype');
     font-weight: 400;
   }
 
   @font-face {
-    font-family: "Noto Sans";
-    src: url("../fonts/Noto_Sans/NotoSans-Bold") format("truetype");
+    font-family: 'Noto Sans';
+    src: url('../fonts/Noto_Sans/NotoSans-Bold') format('truetype');
     font-weight: 700;
   }
 
   @font-face {
-    font-family: "Noto Sans";
-    src: url("../fonts/Noto_Sans/NotoSans-Italic") format("truetype");
+    font-family: 'Noto Sans';
+    src: url('../fonts/Noto_Sans/NotoSans-Italic') format('truetype');
     font-style: italic;
     font-weight: 400;
   }
 
   @font-face {
-    font-family: "Noto Sans";
-    src: url("../fonts/Noto_Sans/NotoSans-BoldItalic") format("truetype");
+    font-family: 'Noto Sans';
+    src: url('../fonts/Noto_Sans/NotoSans-BoldItalic') format('truetype');
     font-style: italic;
     font-weight: 700;
   }
 
   /* Poppins */
   @font-face {
-    font-family: "Poppins";
-    src: url("../fonts/Poppins/Poppins-Regular") format("truetype");
+    font-family: 'Poppins';
+    src: url('../fonts/Poppins/Poppins-Regular') format('truetype');
     font-weight: 400;
   }
 
   @font-face {
-    font-family: "Poppins";
-    src: url("../fonts/Poppins/Poppins-Bold") format("truetype");
+    font-family: 'Poppins';
+    src: url('../fonts/Poppins/Poppins-Bold') format('truetype');
     font-weight: 700;
   }
 
   @font-face {
-    font-family: "Poppins";
-    src: url("../fonts/Poppins/Poppins-Italic") format("truetype");
+    font-family: 'Poppins';
+    src: url('../fonts/Poppins/Poppins-Italic') format('truetype');
     font-style: italic;
     font-weight: 400;
   }
 
   @font-face {
-    font-family: "Poppins";
-    src: url("../fonts/Poppins/Poppins-BoldItalic") format("truetype");
+    font-family: 'Poppins';
+    src: url('../fonts/Poppins/Poppins-BoldItalic') format('truetype');
     font-style: italic;
     font-weight: 700;
   }
 
   /* Playfair Display */
   @font-face {
-    font-family: "Playfair Display";
-    src: url("../fonts/Playfair_Display/PlayfairDisplay-VariableFont.ttf")
-      format("truetype");
+    font-family: 'Playfair Display';
+    src: url('../fonts/Playfair_Display/PlayfairDisplay-VariableFont.ttf')
+      format('truetype');
     font-weight: 400;
   }
 
   @font-face {
-    font-family: "Playfair Display";
-    src: url("../fonts/Playfair_Display/PlayfairDisplay-VariableFont.ttf")
-      format("truetype");
+    font-family: 'Playfair Display';
+    src: url('../fonts/Playfair_Display/PlayfairDisplay-VariableFont.ttf')
+      format('truetype');
     font-weight: 700;
   }
 
   @font-face {
-    font-family: "Playfair Display";
-    src: url("../fonts/Playfair_Display/PlayfairDisplay-Italic-VariableFont.ttf")
-      format("truetype");
+    font-family: 'Playfair Display';
+    src: url('../fonts/Playfair_Display/PlayfairDisplay-Italic-VariableFont.ttf')
+      format('truetype');
     font-style: italic;
     font-weight: 400;
   }
 
   @font-face {
-    font-family: "Playfair Display";
-    src: url("../fonts/Playfair_Display/PlayfairDisplay-Italic-VariableFont.ttf")
-      format("truetype");
+    font-family: 'Playfair Display';
+    src: url('../fonts/Playfair_Display/PlayfairDisplay-Italic-VariableFont.ttf')
+      format('truetype');
     font-style: italic;
     font-weight: 700;
   }
@@ -127,11 +127,11 @@
   }
 
   section h1 {
-    @apply pb-10 heading leading-tight text-4xl tablet:leading-snug;
+    @apply heading pb-10 text-4xl leading-tight tablet:leading-snug;
   }
 
   section h2 {
-    @apply pb-6 heading text-3xl;
+    @apply heading pb-6 text-3xl;
   }
 }
 
@@ -145,7 +145,7 @@
   }
 
   .text-underline {
-    @apply relative before:absolute before:-z-10 before:w-full before:h-1/5 before:left-0 before:top-3/4 before:bg-indigo-300 inline-block;
+    @apply relative inline-block before:absolute before:left-0 before:top-3/4 before:-z-10 before:h-1/5 before:w-full before:bg-indigo-300;
   }
 
   .para-max-w {
@@ -162,15 +162,15 @@
   }
 
   .accent-border-l {
-    @apply relative pl-5 before:absolute before:border-l-4 before:border-indigo-600 before:h-full before:left-0 before:top-0 before:rounded;
+    @apply relative pl-5 before:absolute before:left-0 before:top-0 before:h-full before:rounded before:border-l-4 before:border-indigo-600;
   }
 
   section h2.accent-border-l {
-    @apply pb-0 mb-6;
+    @apply mb-6 pb-0;
   }
 
   .accent-border-b {
-    @apply relative before:absolute before:h-1 before:bg-indigo-600 before:w-[15%] before:left-2/4 before:-translate-x-2/4 before:bottom-0 before:rounded;
+    @apply relative before:absolute before:left-2/4 before:bottom-0 before:h-1 before:w-[15%] before:-translate-x-2/4 before:rounded before:bg-indigo-600;
   }
 
   section h2.accent-border-b {
@@ -184,11 +184,11 @@
   }
 
   .paragraph-dot {
-    @apply relative before:absolute before:w-[6px] before:h-[6px] before:rounded-full before:bg-indigo-600;
+    @apply relative before:absolute before:h-[6px] before:w-[6px] before:rounded-full before:bg-indigo-600;
   }
 
   .pd-lc {
-    @apply before:top-2/4 before:-translate-y-2/4  before:-left-4;
+    @apply before:top-2/4 before:-left-4  before:-translate-y-2/4;
   }
 
   .pd-lt {
@@ -196,6 +196,6 @@
   }
 
   .layout-container {
-    @apply min-[660px]:max-w-[630px] tablet:max-w-[720px] laptop:max-w-[960px] desktop:max-w-[1200px] mx-auto px-6;
+    @apply mx-auto px-6 min-[660px]:max-w-[630px] tablet:max-w-[720px] laptop:max-w-[960px] desktop:max-w-[1200px];
   }
 }

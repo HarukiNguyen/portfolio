@@ -1,4 +1,4 @@
-import LinkIcon from "../LinkIcon";
+import LinkIcon from '../LinkIcon';
 
 function ProjectDetailName({ url, detailName }) {
   return (
@@ -8,10 +8,10 @@ function ProjectDetailName({ url, detailName }) {
         alt={detailName}
         className="group hover:text-indigo-400 hover:underline focus:outline-none"
       >
-        <h1 className="inline px-2 py-1 -mx-2 -my-1 group-focus:hocus-state rounded">
+        <h1 className="group-focus:hocus-state -mx-2 -my-1 inline rounded px-2 py-1">
           {detailName}
         </h1>
-        <div className="pl-3 inline-block align-baseline group-hover:scale-110 transition-transform">
+        <div className="inline-block pl-3 align-baseline transition-transform group-hover:scale-110">
           <LinkIcon className="h-7 w-7" />
         </div>
       </a>

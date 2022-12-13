@@ -1,6 +1,6 @@
-import { useRef } from "react";
-import { socialMediasData } from "./socialMediasData";
-import Svg from "./Svg";
+import { useRef } from 'react';
+import { socialMediasData } from './socialMediasData';
+import Svg from './Svg';
 
 function SocialMedias() {
   const linkRef = useRef(null);
@@ -14,7 +14,7 @@ function SocialMedias() {
           ref={linkRef}
           href={url}
           title={name}
-          className="block p-2 rounded-full transition-colors	focus:hocus-state hover:hocus-state cursor-pointer"
+          className="focus:hocus-state hover:hocus-state block cursor-pointer	rounded-full p-2 transition-colors"
         >
           <Svg svg={icon} />
         </a>

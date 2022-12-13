@@ -1,14 +1,14 @@
-import { useEffect, useRef } from "react";
-import visibleAni from "../ultilities/visibleAni";
+import { useEffect, useRef } from 'react';
+import visibleAni from '../ultilities/visibleAni';
 
 function ProjectTechExplain({ techAndExplain }) {
   const explanativeLength = techAndExplain.length;
   const itemClassNames =
-    explanativeLength > 1 ? "pb-5 paragraph-dot pd-lt" : "";
+    explanativeLength > 1 ? 'pb-5 paragraph-dot pd-lt' : '';
   const sectionRef = useRef(null);
 
   useEffect(() => {
-    visibleAni(sectionRef.current, "animate-fadeIn");
+    visibleAni(sectionRef.current, 'animate-fadeIn');
   }, []);
 
   return (

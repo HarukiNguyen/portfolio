@@ -1,6 +1,6 @@
-import avtTablet from "../../assets/images/avatar/cat-252-tablet.jpg";
-import avtLaptop from "../../assets/images/avatar/cat-360-laptop.jpg";
-import avtMobile from "../../assets/images/avatar/cat-437-mobile.jpg";
+import avtTablet from '../../assets/images/avatar/cat-252-tablet.jpg';
+import avtLaptop from '../../assets/images/avatar/cat-360-laptop.jpg';
+import avtMobile from '../../assets/images/avatar/cat-437-mobile.jpg';
 
 function Avatar() {
   const tabletBP = 768;
@@ -13,7 +13,7 @@ function Avatar() {
   return (
     <div className="flex justify-center">
       <div className="relative w-9/12">
-        <span className="absolute w-full h-full bg-indigo-500 -translate-x-4 -translate-y-4 desktop:-translate-x-5 desktop:-translate-y-5"></span>
+        <span className="absolute h-full w-full -translate-x-4 -translate-y-4 bg-indigo-500 desktop:-translate-x-5 desktop:-translate-y-5"></span>
         <img
           srcSet={`${avtTablet} ${avtTabletW}w, ${avtLaptop} ${avtLaptopW}w, ${avtMobile} ${avtMobileW}w`}
           sizes={`(min-width: ${tabletBP}px) and (max-width: ${

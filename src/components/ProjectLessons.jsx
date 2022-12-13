@@ -1,11 +1,11 @@
-import { useEffect, useRef } from "react";
-import visibleAni from "../ultilities/visibleAni";
+import { useEffect, useRef } from 'react';
+import visibleAni from '../ultilities/visibleAni';
 
 function ProjectLessons({ lessons }) {
   const sectionRef = useRef(null);
 
   useEffect(() => {
-    visibleAni(sectionRef.current, "animate-fadeIn");
+    visibleAni(sectionRef.current, 'animate-fadeIn');
   }, []);
 
   return (
@@ -13,7 +13,7 @@ function ProjectLessons({ lessons }) {
       <h2 className="accent-border-b">Problems and lessons 📚</h2>
       <ul>
         {lessons.map((lesson, index) => (
-          <li key={index} className="pb-5 para-max-w mx-auto">
+          <li key={index} className="para-max-w mx-auto pb-5">
             {lesson}
           </li>
         ))}

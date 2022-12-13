@@ -1,21 +1,23 @@
-import { useEffect, useRef } from "react";
-import Logo from "../components/Logo";
-import SocialMedias from "../components/SocialMedias";
-import visibleAni from "../ultilities/visibleAni";
+import { useEffect, useRef } from 'react';
+import Logo from '../components/Logo';
+import SocialMedias from '../components/SocialMedias';
+import visibleAni from '../ultilities/visibleAni';
 
 function Footer() {
   const footerRef = useRef(null);
 
   useEffect(() => {
-    visibleAni(footerRef.current, "animate-fadeIn");
+    visibleAni(footerRef.current, 'animate-fadeIn');
   }, []);
 
   return (
-    <footer className="py-14 px-3 bg-slate-200 opacity-0" ref={footerRef}>
+    <footer className="bg-slate-200 py-14 px-3 opacity-0" ref={footerRef}>
       {/* contact */}
-      <section className="text-center pb-3" id="contact">
-        <h2 className="heading text-2xl tablet:text-3xl">Let's build the world with me</h2>
-        <p className="para-max-w text-slate-800 mx-auto">
+      <section className="pb-3 text-center" id="contact">
+        <h2 className="heading text-2xl tablet:text-3xl">
+          Let's build the world with me
+        </h2>
+        <p className="para-max-w mx-auto text-slate-800">
           Just contact with me when you need a developer, have some questions,
           or just want to connect
         </p>
@@ -23,7 +25,7 @@ function Footer() {
           <a
             href="mailto:nmd03pvt@gmail.com"
             title="Email me"
-            className="font-bold hover:underline px-2 py-1 rounded focus:hocus-state text-indigo-800"
+            className="focus:hocus-state rounded px-2 py-1 font-bold text-indigo-800 hover:underline"
           >
             nmd03pvt@gmail.com
           </a>

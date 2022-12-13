@@ -1,55 +1,51 @@
 // Import project item assets
 import blogThumb from '../../assets/images/projects/blog/desk.jpg';
-import blogIcon from "../../assets/images/projects/blog/pencil.svg";
-import expressLoveThumb from "../../assets/images/projects/express-your-love/desk.jpg";
-import expressLoveIcon from "../../assets/images/projects/express-your-love/heart.svg";
+import blogIcon from '../../assets/images/projects/blog/pencil.svg';
+import expressLoveThumb from '../../assets/images/projects/express-your-love/desk.jpg';
+import expressLoveIcon from '../../assets/images/projects/express-your-love/heart.svg';
 import validatorJSThumb from '../../assets/images/projects/ValidatorJS/desk.jpg';
 import validatorJSIcon from '../../assets/images/projects/ValidatorJS/sheild.svg';
-import webFormThumb from "../../assets/images/projects/web-form/desk.jpg";
-import webFormIcon from "../../assets/images/projects/web-form/password.svg";
+import webFormThumb from '../../assets/images/projects/web-form/desk.jpg';
+import webFormIcon from '../../assets/images/projects/web-form/password.svg';
 
 // Import projects detail assets
 
 const projectsOverview = [
   {
     id: 0,
-    name: "ValidatorJS",
+    name: 'ValidatorJS',
     iconUrl: validatorJSIcon,
-    description:
-      "A simple Validator library for web form",
+    description: 'A simple Validator library for web form',
     completed: false,
-    url: "/validatorJS",
+    url: '/validatorJS',
     thumbnailUrl: validatorJSThumb,
   },
   {
     id: 1,
-    name: "Web form",
+    name: 'Web form',
     // detailName: "Web form application",
     iconUrl: webFormIcon,
-    description:
-      "Web forms use to test my own Validator library",
+    description: 'Web forms use to test my own Validator library',
     completed: true,
-    url: "/web-form",
+    url: '/web-form',
     thumbnailUrl: webFormThumb,
   },
   {
     id: 2,
-    name: "Your love",
+    name: 'Your love',
     iconUrl: expressLoveIcon,
-    description:
-      "Hope your have your love!",
+    description: 'Hope your have your love!',
     completed: true,
-    url: "/express-your-love",
+    url: '/express-your-love',
     thumbnailUrl: expressLoveThumb,
   },
   {
     id: 3,
-    name: "BLog",
+    name: 'BLog',
     iconUrl: blogIcon,
-    description:
-      "I write about my life",
+    description: 'I write about my life',
     completed: false,
-    url: "/blog",
+    url: '/blog',
     thumbnailUrl: blogThumb,
   },
 ];

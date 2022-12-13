@@ -1,4 +1,10 @@
-export default function getOtherProjects(prevId, nextId, currId, projectsData, setOtherProjects) {
+export default function getOtherProjects(
+  prevId,
+  nextId,
+  currId,
+  projectsData,
+  setOtherProjects
+) {
   if (prevId && nextId) {
     projectsData.forEach((projectData) => {
       if (projectData.id === prevId || projectData.id === nextId) {
