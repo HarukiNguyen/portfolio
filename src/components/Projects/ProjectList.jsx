@@ -20,7 +20,11 @@ function ProjectList({ projectsData }) {
         ref={(el) => (projectsRef.current[index] = el)}
       >
         <div className="relative">
-          <img src={thumbnailUrl} alt={name} className="rounded-3xl" />
+          <img
+            src={thumbnailUrl}
+            alt={name}
+            className="rounded-3xl border-[1px] shadow"
+          />
           <ProjectInfo
             name={name}
             iconUrl={iconUrl}
