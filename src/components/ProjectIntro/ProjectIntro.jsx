@@ -17,7 +17,7 @@ function ProjectIntro({ detailName, url, purpose, type, stack, introImg }) {
         <img
           src={introImg}
           alt="Introduce image"
-          className="rounded-md shadow-lg"
+          className="rounded-lg border-[1px] shadow"
         />
       </div>
     </section>
