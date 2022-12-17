@@ -1,8 +1,8 @@
 function ProjectName({ name }) {
   return (
-    <div className="flex justify-center">
-      <h3 className="heading text-underline text-3xl">{name} </h3>
-    </div>
+    <h3 className="heading text-underline w-full text-center text-3xl">
+      {name}{' '}
+    </h3>
   );
 }
 
