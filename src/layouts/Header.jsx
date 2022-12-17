@@ -17,7 +17,7 @@ function Header() {
           <SocialMedias />
         </div>
       </div>
-      <div className="hidden pl-5 tablet:flex tablet:grow laptop:pr-20 desktop:pr-44">
+      <div className="hidden pl-5 tablet:flex tablet:grow">
         <DecorationDash />
       </div>
     </header>
