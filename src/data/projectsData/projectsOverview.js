@@ -1,12 +1,12 @@
 // Import project item assets
 import blogThumb from '../../assets/images/projects/blog/desk.jpg';
 import blogIcon from '../../assets/images/projects/blog/pencil.svg';
-import expressLoveThumb from '../../assets/images/projects/express-your-love/desk.jpg';
+import expressLoveThumb from '../../assets/images/projects/express-your-love/express-your-love-thumb.jpg';
 import expressLoveIcon from '../../assets/images/projects/express-your-love/heart.svg';
-import validatorJSThumb from '../../assets/images/projects/ValidatorJS/desk.jpg';
 import validatorJSIcon from '../../assets/images/projects/ValidatorJS/sheild.svg';
-import webFormThumb from '../../assets/images/projects/web-form/desk.jpg';
+import validatorJSThumb from '../../assets/images/projects/ValidatorJS/validatorjs-thumb.jpg';
 import webFormIcon from '../../assets/images/projects/web-form/password.svg';
+import webFormThumb from '../../assets/images/projects/web-form/webform-thumb.png';
 
 // Import projects detail assets
 
@@ -16,14 +16,13 @@ const projectsOverview = [
     name: 'ValidatorJS',
     iconUrl: validatorJSIcon,
     description: 'A simple Validator library for web form',
-    completed: false,
+    completed: true,
     url: '/validatorJS',
     thumbnailUrl: validatorJSThumb,
   },
   {
     id: 1,
     name: 'Web form',
-    // detailName: "Web form application",
     iconUrl: webFormIcon,
     description: 'Web forms use to test my own Validator library',
     completed: true,
@@ -32,7 +31,7 @@ const projectsOverview = [
   },
   {
     id: 2,
-    name: 'Your love',
+    name: 'Express your love',
     iconUrl: expressLoveIcon,
     description: 'Hope your have your love!',
     completed: true,
