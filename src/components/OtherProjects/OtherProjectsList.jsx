@@ -16,13 +16,13 @@ function OtherProjectsList({ param }) {
     // 2nd render: update currId
 
     // get CurrId
-    getCurrId(projectsDetail, setCurrId, param);
+    getCurrId(projectsData, setCurrId, param);
 
     // get otherProjectIds
-    if (currId) {
+    if (currId !== null) {
       projectsDetail.forEach((projects) => {
         if (projects.id !== currId) {
-          setOtherProjectIds([...otherProjectIds, projects.id]);
+          setOtherProjectIds((prevState) => [...prevState, projects.id]);
         }
       });
     }
@@ -36,7 +36,7 @@ function OtherProjectsList({ param }) {
       projectsData.forEach((project) => {
         otherProjectIds.forEach((id) => {
           if (project.id === id) {
-            setProjects([...projects, project]);
+            setProjects((prevState) => [...prevState, project]);
           }
         });
       });
