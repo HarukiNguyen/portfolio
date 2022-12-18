@@ -26,7 +26,7 @@ function OtherProjectsList({ param }) {
         }
       });
     }
-  }, [currId]);
+  }, [currId, param]);
 
   useEffect(() => {
     // 3rd render: otherProjectIds update
