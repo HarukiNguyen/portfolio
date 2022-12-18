@@ -6,7 +6,7 @@ function ProjectLink({ url, completed }) {
 
   return (
     <Link
-      href={`${url}`}
+      to={`${url}`}
       tabIndex={completed ? 0 : -1}
       className={`${
         !completed ? 'disable-link text-slate-400 no-underline' : ''
