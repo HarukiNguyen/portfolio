@@ -4,7 +4,7 @@ function Logo() {
   return (
     <div className="flex items-center">
       <Link
-        to="/"
+        to="/portfolio/"
         alt="logo"
         className="focus:hocus-state group cursor-pointer rounded px-2 py-1 transition-colors"
       >

@@ -11,8 +11,8 @@ function App() {
       <div className="layout-container">
         <main className="py-20 tablet:py-24 laptop:py-28 desktop:py-36">
           <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/:project" element={<ProjectPage />} />
+            <Route path="/portfolio" element={<Home />} />
+            <Route path="/portfolio/:project" element={<ProjectPage />} />
           </Routes>
         </main>
       </div>
