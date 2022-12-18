@@ -19,7 +19,7 @@ function Footer() {
         </h2>
         <p className="para-max-w mx-auto text-slate-800">
           Just contact with me when you need a developer, have some questions,
-          or just want to connect
+          or just want to connect.
         </p>
         <div className="py-6">
           <a
