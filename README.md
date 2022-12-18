@@ -4,6 +4,7 @@
 
 - [x] Fix: OtherProject > other otherProjectIds only have 1 element.
 - [x] Add Hello message in console.
+- [ ] Fix: OtherProjectsList > add existing projects.
 - [ ] Add dark mode.
 - [ ] Dynamic padding bottom for project items.
 - [ ] Add lazy loading attr for images.
