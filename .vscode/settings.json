@@ -1,3 +1,8 @@
 {
-  "conventionalCommits.scopes": ["responsive", "UX", "a11y"]
+  "conventionalCommits.scopes": [
+    "responsive",
+    "UX",
+    "a11y",
+    "deps"
+  ]
 }
