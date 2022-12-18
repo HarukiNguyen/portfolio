@@ -4,6 +4,7 @@ const knowledgeData = [
   'TailwindCSS',
   'React',
   'Git & GitHub',
+  'Redux'
 ];
 
 export { knowledgeData };
