@@ -13,7 +13,7 @@ const projectsDetail = [
     id: 0,
     detailName: 'ValidatorJS library',
     url: 'https://github.com/HarukiNguyen/ValidatorJS#readme',
-    purpose: 'A small JS library use to validate HTMl form controls',
+    purpose: 'A small JS library use to validate HTML form controls',
     goals: [
       'This library will have a function, the users will provide the parameters, which is a list of the form control element.',
       'After the library run, it will return an array of results to tell whether all the form control is true or not, and information about it.',
@@ -25,7 +25,7 @@ const projectsDetail = [
       previewImg: [webFormPreview1, webFormPreview3, webFormPreview2],
     },
     techAndExplain: [
-      "Javascript: there are obvious reasons to explain this choice, it's too popular, have many web API, and is easy to debug.",
+      "Javascript: there are obvious reasons to explain this choice, it's too popular, has many web API, and is easy to debug.",
       'Webpack: when talking about libraries, I start to think about the production code, and...it has to be minimized. So I choose Webpack, one of the most popular JS bundlers out there.',
     ],
     lessons: [
@@ -41,8 +41,8 @@ const projectsDetail = [
     purpose:
       'This is a small webpage I made for testing my ValidatorJS library.',
     goals: [
-      'My first goal is to handle the UI/UX and logic when the form is valid or not. Because the Validator JS library is so small, it just provides some simple API that tells me whether the form controls are valid or not.',
-      'The second goal is simple, I just want to make this website as clean as possible. The colors, the fonts, and the spacing on the webpage, all have to match each other.',
+      'My first goal is to handle the UI/UX and logic when the form is valid or not. Because the ValidatorJS library just provides some simple API that tells me whether the form controls are valid or not, so I have to do it myself.',
+      'The second goal is simple, I just want to make this website as clean and beautiful as possible. The colors, the fonts, and the spacing on the webpage, all have to match each other.',
     ],
     type: 'Personal project',
     stack: ['HTML & CSS', 'Javascript'],
@@ -51,7 +51,8 @@ const projectsDetail = [
       previewImg: [webFormPreview1, webFormPreview3, webFormPreview2],
     },
     techAndExplain: [
-      "Javascript: I use vanilla JS because I think I need to make sure the library will work correctly with vanilla JS. I also think that I won't need to write a complex application in this case, so I don't need a JS library or framework to implement my application",
+      'I use vanilla JS because I think I need to make sure the library will work correctly with vanilla JS.',
+      "I also think that I won't need to write a complex application in this case, so I don't need a JS library or framework to implement my application.",
     ],
     lessons: [
       'During the development process, I faced many complex problems, which is quite challenging for my current development skills.',
@@ -65,7 +66,7 @@ const projectsDetail = [
     detailName: 'Be brave to express your love',
     url: 'https://harukinguyen.github.io/express-your-love',
     purpose:
-      "After seeing a video on YouTube showing a website, that is used to express someone's love, and when she/he hovers the mouse over the No button, it jumps to a different location on the screen. I thought it was will be interesting for me, so I started to create it.",
+      "After seeing a video on YouTube showing a website, that is used to express someone's love, and when she/he hovers the mouse over the rejecting button, it jumps to a different location on the screen 🙂. I thought it was will be interesting for me, so I started to create it.",
     goals: [
       'There are only 2 goals that come to my mind when I think about this idea, one is the same feature, but better. Another is beautiful and romantic.',
     ],
@@ -80,7 +81,7 @@ const projectsDetail = [
       ],
     },
     techAndExplain: [
-      'Javascript is a great language to create these types of websites, so I chose it.',
+      'Javascript is a great language to help me start this idea, so I chose it.',
       "And I also think that I won't need to write a complex application, in this case, actually, it is just a simple application, so I don't need a JS library or framework to implement my application.",
     ],
     lessons: [
