@@ -35,26 +35,26 @@
   /* Noto Sans */
   @font-face {
     font-family: 'Noto Sans';
-    src: url('../fonts/Noto_Sans/NotoSans-Regular') format('truetype');
+    src: url('../fonts/Noto_Sans/NotoSans-Regular.ttf') format('truetype');
     font-weight: 400;
   }
 
   @font-face {
     font-family: 'Noto Sans';
-    src: url('../fonts/Noto_Sans/NotoSans-Bold') format('truetype');
+    src: url('../fonts/Noto_Sans/NotoSans-Bold.ttf') format('truetype');
     font-weight: 700;
   }
 
   @font-face {
     font-family: 'Noto Sans';
-    src: url('../fonts/Noto_Sans/NotoSans-Italic') format('truetype');
+    src: url('../fonts/Noto_Sans/NotoSans-Italic.ttf') format('truetype');
     font-style: italic;
     font-weight: 400;
   }
 
   @font-face {
     font-family: 'Noto Sans';
-    src: url('../fonts/Noto_Sans/NotoSans-BoldItalic') format('truetype');
+    src: url('../fonts/Noto_Sans/NotoSans-BoldItalic.ttf') format('truetype');
     font-style: italic;
     font-weight: 700;
   }
@@ -62,26 +62,26 @@
   /* Poppins */
   @font-face {
     font-family: 'Poppins';
-    src: url('../fonts/Poppins/Poppins-Regular') format('truetype');
+    src: url('../fonts/Poppins/Poppins-Regular.ttf') format('truetype');
     font-weight: 400;
   }
 
   @font-face {
     font-family: 'Poppins';
-    src: url('../fonts/Poppins/Poppins-Bold') format('truetype');
+    src: url('../fonts/Poppins/Poppins-Bold.ttf') format('truetype');
     font-weight: 700;
   }
 
   @font-face {
     font-family: 'Poppins';
-    src: url('../fonts/Poppins/Poppins-Italic') format('truetype');
+    src: url('../fonts/Poppins/Poppins-Italic.ttf') format('truetype');
     font-style: italic;
     font-weight: 400;
   }
 
   @font-face {
     font-family: 'Poppins';
-    src: url('../fonts/Poppins/Poppins-BoldItalic') format('truetype');
+    src: url('../fonts/Poppins/Poppins-BoldItalic.ttf') format('truetype');
     font-style: italic;
     font-weight: 700;
   }
