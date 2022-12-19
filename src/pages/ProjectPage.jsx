@@ -11,7 +11,7 @@ function ProjectPage() {
   const param = useParams();
 
   const project = projectsData.find(
-    (project) => `/portfolio/${param.project}` === project.url
+    (project) => `/${param.project}` === project.url
   );
 
   const { projectDetail } = project;

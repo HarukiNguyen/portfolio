@@ -17,7 +17,7 @@ const projectsOverview = [
     iconUrl: validatorJSIcon,
     description: 'A simple JS Validator library for web form',
     completed: true,
-    url: '/portfolio/validatorJS',
+    url: '/validatorJS',
     thumbnailUrl: validatorJSThumb,
   },
   {
@@ -26,7 +26,7 @@ const projectsOverview = [
     iconUrl: webFormIcon,
     description: 'Web forms use to test my ValidatorJS library',
     completed: true,
-    url: '/portfolio/web-form',
+    url: '/web-form',
     thumbnailUrl: webFormThumb,
   },
   {
@@ -35,7 +35,7 @@ const projectsOverview = [
     iconUrl: expressLoveIcon,
     description: 'A webpage to bare your heart to your crush!',
     completed: true,
-    url: '/portfolio/express-your-love',
+    url: '/express-your-love',
     thumbnailUrl: expressLoveThumb,
   },
   {
@@ -44,7 +44,7 @@ const projectsOverview = [
     iconUrl: blogIcon,
     description: 'I write about my life',
     completed: false,
-    url: '/portfolio/blog',
+    url: '/blog',
     thumbnailUrl: blogThumb,
   },
 ];
