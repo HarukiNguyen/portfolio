@@ -3,6 +3,7 @@
     "responsive",
     "UX",
     "a11y",
-    "deps"
+    "deps",
+    "routing"
   ]
 }
