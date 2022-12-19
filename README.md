@@ -8,6 +8,7 @@
 - [x] Fix: react router dom not working on github page.
 - [ ] Use OtherProjects component.
 - [ ] Fix: OtherProjectsList > add existing projects.
+- [ ] Fix: a11y problem.
 - [ ] Add dark mode.
 - [ ] Dynamic padding bottom for project items.
 - [ ] Add lazy loading attr for images.
