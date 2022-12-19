@@ -16,7 +16,7 @@ function ProjectDesc({ descList }) {
       content = desc.map((techItem) => (
         <li key={techItem} className="flex items-center py-2">
           <div className="pr-4">
-            <img src={arrowIcon} alt="Arrow icon" className="w-6" />
+            <img src={arrowIcon} alt="Arrow icon" className="max-w-[24px]" />
           </div>
           {techItem}
         </li>
