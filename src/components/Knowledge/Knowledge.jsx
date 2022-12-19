@@ -13,7 +13,7 @@ function Knowledge() {
   return (
     <section
       ref={sectionRef}
-      className="tablet:clear-left laptop:grid laptop:grid-cols-12"
+      className="opacity-0 tablet:clear-left laptop:grid laptop:grid-cols-12"
     >
       <div className="laptop:col-span-6 desktop:col-span-6">
         <h2 className="accent-border-l">My knowledge 📖</h2>
