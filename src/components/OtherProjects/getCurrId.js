@@ -1,7 +1,9 @@
-export default function getCurrId(projectsData, setCurrId, param) {
+export default function getCurrId(projectsData, param) {
+  let currId;
   projectsData.forEach((projectData) => {
     if (projectData.url === `/${param.project}`) {
-      setCurrId(projectData.id);
+      currId = projectData.id;
     }
   });
+  return currId;
 }

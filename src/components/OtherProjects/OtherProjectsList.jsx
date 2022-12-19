@@ -3,45 +3,21 @@ import { projectsData } from '../../data/projectsData';
 import { projectsDetail } from '../../data/projectsData/projectsDetail';
 import ProjectList from '../Projects/ProjectList';
 import getCurrId from './getCurrId';
+import getProjects from './getProjects';
 
 function OtherProjectsList({ param }) {
-  const [currId, setCurrId] = useState(null);
-  const [otherProjectIds, setOtherProjectIds] = useState([]);
   const [projects, setProjects] = useState([]);
 
-  // 1st render: initial
-  // 4th render: final
-
   useEffect(() => {
-    // 2nd render: update currId
+    const projects = getProjects(
+      getCurrId,
+      projectsData,
+      projectsDetail,
+      param
+    );
 
-    // get CurrId
-    getCurrId(projectsData, setCurrId, param);
-
-    // get otherProjectIds
-    if (currId !== null) {
-      projectsDetail.forEach((projects) => {
-        if (projects.id !== currId) {
-          setOtherProjectIds((prevState) => [...prevState, projects.id]);
-        }
-      });
-    }
-  }, [currId, param]);
-
-  useEffect(() => {
-    // 3rd render: otherProjectIds update
-
-    // get projects
-    if (otherProjectIds) {
-      projectsData.forEach((project) => {
-        otherProjectIds.forEach((id) => {
-          if (project.id === id) {
-            setProjects((prevState) => [...prevState, project]);
-          }
-        });
-      });
-    }
-  }, [otherProjectIds]);
+    setProjects(projects);
+  }, [param]);
 
   const listClassNames =
     projects.length > 1
@@ -50,7 +26,7 @@ function OtherProjectsList({ param }) {
 
   return (
     <ul className={`pt-10 ${listClassNames}`}>
-      <ProjectList projectsData={projects} />
+      {<ProjectList projectsData={projects} />}
     </ul>
   );
 }
