@@ -7,7 +7,7 @@
 - [x] Fix: react not load assets in production mode.
 - [x] Fix: react router dom not working on github page.
 - [ ] Use OtherProjects component.
-- [ ] Fix: OtherProjectsList > add existing projects.
+- [ ] Fix: OtherProjectsList > change logic.
 - [ ] Fix: a11y problem.
 - [ ] Add dark mode.
 - [ ] Dynamic padding bottom for project items.
